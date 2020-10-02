@@ -38,6 +38,6 @@ public class insertionSort {
         sort ob = new sort();
         ob.sort(arr);
         ob.display(arr);
-
+        in.close();
     }
 }
