@@ -38,9 +38,15 @@ function quickSort(arr, left, right){
    return arr;
  }
 
+
+// Input: [11,8,14,3,6,2,7] 0 6
 console.log(quickSort([11,8,14,3,6,2,7],0,6));
-//[2, 3, 6, 7, 8, 11, 14]
+
+// Output: 
+// [2, 3, 6, 7, 8, 11, 14]
+
+// Input: [11,8,14,3,6,2,1, 7] 0 7
 console.log(quickSort([11,8,14,3,6,2,1, 7],0,7));
+
+// Output:
 //[1, 2, 3, 6, 7, 8, 11, 14]
-console.log(quickSort([16,11,9,7,6,5,3, 2],0,7));
-//[2, 3, 5, 6, 7, 9, 11, 16]
