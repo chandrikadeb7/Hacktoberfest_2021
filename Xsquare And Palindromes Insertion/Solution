@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	int t,i,j;
+	cin>>t;
+	string s;
+	
+	while(t--)
+	{
+      map<char,int>m;
+	  cin>>s;
+	  for(j=0;j<s.length();j++)
+	  {
+		m[s[j]]++;
+	  }
+	  int count=0;
+	  for(j='a';j<='z';j++)
+	  {
+		  if(m[j]%2==1)
+		  	count++;  		  
+	  }	  
+	  if(count>=1)
+		count--;
+	  cout<<count<<endl;
+	}
+return 0;
+}
