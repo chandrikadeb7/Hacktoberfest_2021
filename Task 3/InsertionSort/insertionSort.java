@@ -1,5 +1,5 @@
 
-//insertion sort
+//Insertion Sort
 import java.util.*;
 
 class sort {
