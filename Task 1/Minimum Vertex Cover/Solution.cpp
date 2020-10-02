@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
-using namespace std;  
+using namespace std;
+
+// Source : GeeksForGeeks (https://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/)
 /* A binary tree node has data, pointer to left child and a pointer to 
    right child */
 struct node 
