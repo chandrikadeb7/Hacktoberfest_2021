@@ -1,0 +1,1 @@
+Using JavaScript when a number is entered into an input field, it should display above the input either as `This number you typed is an even number` or `This number you typed is an odd number`.
