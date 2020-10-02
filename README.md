@@ -26,7 +26,7 @@ To qualify for the __official limited edition Hacktoberfest shirt__, you must re
 
 Here are 3 quick and easy ways to contribute to this project:
 
-## Task 1: Add your program question and solution :innocent:
+## Task 1: [Add your program question and solution](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201) :innocent:
 Add any programming question and its solution in a separate folder and make your way to Open Source.
 
 :star: The file structure will be as follows:
@@ -34,6 +34,8 @@ Add any programming question and its solution in a separate folder and make your
 -<Name of Program>(Folder)   
   ----<Question.md>(Markdown file)  
   ----<Solution>(Solution file in any language including C/Java/Python etc.)  
+  
+ :eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201)
  
 ## Task 2: Submit your Own portfolio page :eyes:
 Host your very own portfolio page in minutes and share with us to get nearer to swags
@@ -44,6 +46,8 @@ You can take help from one of my blogs :point_right: [Visit Blog](https://medium
 
 -<Your Name>(Folder)  
   ----<All files/folders>(In any language including C/Java/Python etc.)  
+ 
+:eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202)
 
 ## Task 3: Show Your Algorithm Skills :rocket:
 Help us in making a one-stop place to find necessary codes and articles, which can vary from `Hello World` to `Dynamic Programming` in any language of your choice.  
@@ -51,6 +55,8 @@ Help us in making a one-stop place to find necessary codes and articles, which c
 
 -<Algorithm Name>(Folder)  
   ----<Implementation file with commented sample input/output>(In any language including C/Java/Python etc.)  
+  
+ :eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
 
 ## Choose one or all 3, make a pull request for your work and wait for it to be merged! :heart:
 
