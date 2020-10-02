@@ -31,7 +31,7 @@ Add any programming question and its solution in a separate folder and make your
 
 :star: The file structure will be as follows:
 
-```sh
+```
 <name of program>/
 ├── question.md
 ├── <solution> (Solution file in any language including C/Java/Python etc.)
