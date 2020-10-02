@@ -155,7 +155,7 @@ $ git push origin master
 
 Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/chandrikadeb7/Hacktoberfest_2020/pulls).
 
-### 6. Create a new branch :bangbang: :tree:
+### 6. Create a new branch :bangbang: :branch:
 
 Whenever you are going to contribute. Please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
 
