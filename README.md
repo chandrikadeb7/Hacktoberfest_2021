@@ -31,12 +31,14 @@ Add any programming question and its solution in a separate folder and make your
 
 :star: The file structure will be as follows:
 
--<Name of Program>(Folder)   
-  ----<Question.md>(Markdown file)  
-  ----<Solution>(Solution file in any language including C/Java/Python etc.)  
-  
- :eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201)
- 
+```sh
+<name of program>/
+├── question.md
+├── <solution> (Solution file in any language including C/Java/Python etc.)
+```
+
+:eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201)
+
 ## Task 2: [Submit your Own portfolio page](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202) :eyes:
 Host your very own portfolio page in minutes and share with us to get nearer to swags
 
@@ -44,19 +46,23 @@ You can take help from one of my blogs :point_right: [Visit Blog](https://medium
 
 :star: The file structure will be as follows:
 
--<Your Name>(Folder)  
-  ----<All files/folders>(In any language including C/Java/Python etc.)  
- 
+```
+<your name>/
+├── <all files/folders> (In any language including C/Java/Python etc.)
+```
+
 :eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202)
 
 ## Task 3: [Show Your Algorithm Skills](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203) :rocket:
 Help us in making a one-stop place to find necessary codes and articles, which can vary from `Hello World` to `Dynamic Programming` in any language of your choice.  
 :star: The file structure will be as follows:
 
--<Algorithm Name>(Folder)  
-  ----<Implementation file with commented sample input/output>(In any language including C/Java/Python etc.)  
-  
- :eyes: Upload your contribution here in this folder [Task 3](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
+```
+<algorithm name>/
+├── <implementation file> (With commented sample input/output. In any language including C/Java/Python etc.)
+```
+
+:eyes: Upload your contribution here in this folder [Task 3](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
 
 ## Choose one or all 3, make a pull request for your work and wait for it to be merged! :heart:
 
