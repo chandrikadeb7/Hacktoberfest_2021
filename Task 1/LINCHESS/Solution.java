@@ -1,6 +1,6 @@
 import java.util.*;
 
-class solution {
+class Solution {
     static Scanner in = new Scanner(System.in);
 
     private static int check() {
