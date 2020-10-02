@@ -37,7 +37,7 @@ Add any programming question and its solution in a separate folder and make your
   
  :eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201)
  
-## Task 2: Submit your Own portfolio page :eyes:
+## Task 2: [Submit your Own portfolio page](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202) :eyes:
 Host your very own portfolio page in minutes and share with us to get nearer to swags
 
 You can take help from one of my blogs :point_right: [Visit Blog](https://medium.com/analytics-vidhya/portfolio-website-the-beginners-way-d43be855217e)
@@ -49,14 +49,14 @@ You can take help from one of my blogs :point_right: [Visit Blog](https://medium
  
 :eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202)
 
-## Task 3: Show Your Algorithm Skills :rocket:
+## Task 3: [Show Your Algorithm Skills](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203) :rocket:
 Help us in making a one-stop place to find necessary codes and articles, which can vary from `Hello World` to `Dynamic Programming` in any language of your choice.  
 :star: The file structure will be as follows:
 
 -<Algorithm Name>(Folder)  
   ----<Implementation file with commented sample input/output>(In any language including C/Java/Python etc.)  
   
- :eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
+ :eyes: Upload your contribution here in this folder [Task 3](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
 
 ## Choose one or all 3, make a pull request for your work and wait for it to be merged! :heart:
 
