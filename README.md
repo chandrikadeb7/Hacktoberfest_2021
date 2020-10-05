@@ -147,14 +147,14 @@ Before making any changes and/or in an appropriate interval, run the following c
 # Fetch all remote repositories and delete any deleted remote branches
 $ git fetch --all --prune
 
-# Switch to `master` branch
-$ git checkout master
+# Switch to `main` branch
+$ git checkout main
 
-# Reset local `master` branch to match the `upstream` repository's `master` branch
-$ git reset --hard upstream/master
+# Reset local `main` branch to match the `upstream` repository's `main` branch
+$ git reset --hard upstream/main
 
 # Push changes to your forked `Hacktoberfest_2020` repo
-$ git push origin master
+$ git push origin main
 ```
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
@@ -163,7 +163,7 @@ Once you have completed these steps, you are ready to start contributing by chec
 
 ### 6. Create a new branch :bangbang:
 
-Whenever you are going to contribute. Please create a separate branch using command and keep your `master` branch clean (i.e. synced with remote branch).
+Whenever you are going to contribute. Please create a separate branch using command and keep your `main` branch clean (i.e. synced with remote branch).
 
 ```sh
 # It will create a new branch with name Branch_Name and switch to branch Folder_Name
