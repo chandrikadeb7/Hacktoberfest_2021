@@ -14,11 +14,11 @@ public class BinarySearch {
         // If element is smaller than mid, then 
         // it can only be present in left subarray 
         if (arr[mid] > x) 
-            return binarySearch(arr, l, mid - 1, x); 
+            return binarySearchRecursive(arr, l, mid - 1, x); 
   
         // Else the element can only be present 
         // in right subarray 
-        return binarySearch(arr, mid + 1, r, x); 
+        return binarySearchRecursive(arr, mid + 1, r, x); 
     }
 		
 		return -1;
