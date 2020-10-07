@@ -1,4 +1,4 @@
-[**Permutation Sequence**](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+[**Median Of Two Sorted Arrays**](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 Difficulty: *Hard*
 
 ## Problem Statement
