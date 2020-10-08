@@ -1,0 +1,51 @@
+import java.util.*;
+public class Solution {
+	
+    
+    public static void print(int edges[][], int fv, boolean isVisited[], Queue<Integer>  queue)
+    {
+    	while(!queue.isEmpty())
+        {
+            int element=queue.poll();
+            if(!isVisited[element])
+            {
+                System.out.print(element  + " ");
+                isVisited[element]=true;
+            }
+            for(int i=0 ; i  < edges.length ; i++)
+            {
+                if(edges[element][i]==1 && !isVisited[i])
+                {
+                    queue.add(i);
+                }
+            }
+        }
+       
+    }
+    public static void print(int edges[][])
+    {
+        boolean isVisited[]= new boolean[edges.length];
+        Queue<Integer>  queue= new LinkedList<>();
+        for(int i=0 ; i < edges.length ; i++)
+        {
+        queue.add(i);
+        print(edges , 0, isVisited ,queue);
+        }
+    }
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+		int V = s.nextInt();
+		int E = s.nextInt();
+        int edges[][]= new int[V][V];
+        for(int i=0 ; i< E ;i++ )
+        {
+            int fv=s.nextInt();
+            int sv=s.nextInt();
+            edges[fv][sv]=1;
+            edges[sv][fv]=1;
+        }
+        print(edges);
+		
+	}
+}
