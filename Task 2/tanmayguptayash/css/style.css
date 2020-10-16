@@ -1,0 +1,486 @@
+
+* {
+  box-sizing: border-box
+}
+/** HEADER **/
+
+
+/*NAVBAR*/
+.navbar {
+  background-color: #140663f3;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0px; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  display: flex;
+  justify-content:center;
+  height: 75px;
+}
+
+.navbar a {
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  padding: 20px 18px;
+  text-decoration: none;
+  border: 2px solid #140663f3;
+  border-style:inset;
+  margin: 5px 2px;
+  padding: auto;
+  height: 50px;
+  width: 100px;
+
+}
+.navbar a:hover{
+  background-color: blue;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+  
+}
+
+/*JUMBOTRON*/
+.jumbotron {
+  height: 90vh; /*height to 0% of view height*/
+  background: #31b0d5; /*background color to blue*/
+  margin-bottom: 0; /*no bottom margin*/
+  
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 80px;
+  
+}
+
+.jumbotron-text {
+  /*TAGLINE UNDER NAME*/
+  font-weight: 500;
+  font-size: 1.5em;
+  color: rgb(100, 3, 3);
+  text-align: center;
+  padding-top: 30px;
+  
+}
+
+.jumbotron-text h1 {
+  /*YOUR NAME*/
+ 
+  font-weight: 800;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.jumbotron-text p {
+  margin: 0;
+}
+
+/*SOCIAL LINKS*/
+.ul-social {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-social-links {
+  display: inline-block;
+  list-style: none;
+
+}
+
+.social {
+  font-size: 2.5em;
+  color: white;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*ARROW LINK*/
+#down-arrow {
+  /*position: absolute;
+  width: 100%;*/
+  margin-top: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#down-arrow a {
+  color: white;
+}
+
+/*CONTENT*/
+.container {
+  /*sets up flexbox*/
+  width:auto;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+ ;
+}
+
+.white {
+  background: white;
+}
+
+.side-content {
+  flex: 0 0 16.6%;
+}
+
+.main-content {
+  flex: 0 0 66.6%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  
+}
+
+.side-content-sm {
+  flex: 0 0 10%;
+}
+
+.main-content-lg {
+  flex: 0 0 80%;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+  color: #8a73f5;
+  text-transform: uppercase;
+  text-align: center;
+  font-style: bold;
+}
+
+.content-body {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.7);
+ 
+  
+}
+/*about */
+.about-card{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: .25rem;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 5px;
+  color: #fcfafa;
+  font-weight: 300;
+  font-family: Lora,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+ 
+}
+
+/*EDUCATION*/
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: .25rem;
+  margin-bottom: 30px;
+}
+
+.card-header {
+  padding: .75rem 1.25rem;
+  background-color: rgb(112, 186, 209);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.card-content {
+  padding: .25rem 1.0rem;
+  flex: 1 1 auto;
+  background-color: rgb(233, 245, 201);
+ 
+}
+
+h4 {
+  margin: 0;
+  font-weight: 400;
+  color: rgb(245, 1, 1);
+}
+
+.job-title {
+  float: right;
+}
+
+/*PROJECTS*/
+.project-card {
+  display: flex;
+  flex-direction:row;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin-bottom: 30px;
+ 
+}
+
+.project-image {
+  flex: 1 0 auto;
+}
+
+.project-image img {
+  display: block;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.project-content {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+ border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/*SKILLS*/
+.ul-skills {
+  text-align: center;
+  padding-left: 0;
+}
+
+.li-skills {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background: #31b0d5;
+  list-style: none;
+  cursor: default;
+  font-size: 1.0em;
+}
+.skill-card{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: .25rem;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding: 5px;
+  color: #fcfafa;
+  font-weight: 300;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*CONTACT*/
+.blue {
+ /* background: #2597e9;*/
+  text-align: center;
+}
+
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  background: #d0dee7;
+  color: #fff;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact button {
+  display: block;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 5px 10px;
+  padding: 5px;
+  color: #030303;
+  font-weight: 700;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.white-text {
+  color: white;
+  text-align: center;
+}
+
+/*resturant*/
+
+/*HOME PAGE*/
+.container .jumbotron {
+  box-shadow: 0 0 50px #60baee;
+  border: 5px solid #3F0C1F;
+  max-width: 1200px;
+  height: auto;
+  margin:auto;
+  margin-top: 100px;
+}
+
+#menu-tile, #map-tile {
+  margin:auto;
+ /* border: 2px solid #3F0C1F;
+  box-shadow: 0 0 5px #439fd4;*/
+  background:  rgb(0, 0, 0);
+  width: 80vw;
+}
+
+
+img.pic{
+  border-radius: 50%;
+  border:3px solid rgb(3, 62, 117);
+  width:300px;
+  height:300px;
+  margin: auto;
+ 
+}
+div.img{
+  text-align: center;
+}
+
+/* END HOME PAGE */
+body {
+  font-size: 16px;
+  color: #fff;
+  background: rgba(0, 0, 0);
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  
+}
+
+/*mobile view*/
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    height: auto;
+    width: auto;
+    margin-top: 90px;
+    margin-bottom: 15px;
+    
+  }
+  #menu-tile, #specials-tile {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+  /*about */
+.about-card{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: .25rem;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  padding: 5px;
+  color: #fcfafa;
+  font-weight: 300;
+  font-family:  Lora, Verdana, sans-serif;
+  text-align: center;
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+}
+/*PROJECTS*/
+.project-card {
+  display: flex;
+  flex-direction:column;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  margin: auto;
+ 
+}
+.img{
+  margin-top: 20px;
+}
+
+
+
+
+
+
+}
