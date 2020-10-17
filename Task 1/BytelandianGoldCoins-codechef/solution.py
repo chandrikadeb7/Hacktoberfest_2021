@@ -6,6 +6,8 @@ def solve(n):
     else:
         d[n]=max(n,solve(n//2)+solve(n//3)+solve(n//4))
         return d[n]
+
+
 t=10
 while(t>0):
     n=int(input())
