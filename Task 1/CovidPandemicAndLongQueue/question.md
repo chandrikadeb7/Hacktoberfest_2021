@@ -10,7 +10,9 @@ You need to determine whether the people outside the local shop are following th
 
 ### Input
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+
 The first line of each test case contains a single integer N.
+
 The next line contains N space-separated integers A1,A2,…,AN.
 
 ### Output
@@ -18,8 +20,11 @@ For each test case, print a single line containing the string "YES" if social di
 
 ### Constraints
 1≤T≤100
+
 1≤N≤100
-0≤Ai≤1 for each valid i
+
+0≤Ai≤1 for each valid i 
+
 at least one spot is occupied
 
 ### Subtasks
@@ -27,15 +32,24 @@ Subtask #1 (100 points): original constraints
 
 ### Example Input
 3
+
 3
+
 1 0 1
+
 7
+
 1 0 0 0 0 0 1
+
 11
+
 0 1 0 0 0 0 0 1 0 0 1
+
 ### Example Output
 NO
+
 YES
+
 NO
 
 
