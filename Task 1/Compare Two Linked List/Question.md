@@ -1,6 +1,6 @@
 ## Compare two Linked Lists
 
-If two linked lists are given as;
+If two linked lists are given as:
 
 Linked List 1: 1->2->3->4
 
