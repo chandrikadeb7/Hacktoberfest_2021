@@ -1,3 +1,5 @@
+// Find Left and Right handed students in the class. 
+
 #include <iostream>
 #include <string>
 using namespace std;
