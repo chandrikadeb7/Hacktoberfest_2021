@@ -46,7 +46,6 @@ class Graph{
     int V;
     vector<vector<int>> edgeList;
 public:
-
     explicit Graph(int V){
         this->V = V;
     }
@@ -56,7 +55,6 @@ public:
     }
 
     int kruskalMst(){
-
         DisjointSet d1(V);
         int minCost=0;
         vector<pair<int,int>> v[V+5];
