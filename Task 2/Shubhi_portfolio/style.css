@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: none;
+  background-size: cover;
+}
+.app{
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background: url(bg1.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-35%, -35%);
+  overflow: hidden;
+  border-radius: 25px;
+  color: #fff;
+}
+.app h1{
+  margin-top: 10px;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+  font-size: 30px;
+}
+.photo{
+  border-radius: 100px;
+}
