@@ -10,7 +10,9 @@ zero) characters from the end. For example, "ab" is a substring of "cabd", but "
 ### Input
 
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+
 The first line of each test case contains a single integer N.
+
 The second line contains a single string S.
 
 ### Output
@@ -20,34 +22,53 @@ For each test case, print a single line containing the string "YES" if it is pos
 
 ### Constraints
 
-1≤T≤104
-2≤N≤105
+1≤T≤10^4
+
+2≤N≤10^5
+
 |S|=N
-S contains only lowercase English letters
-the sum of N over all test cases does not exceed 106
+
+S contains only lowercase English letters 
+the sum of N over all test cases does not exceed 10^6
 
 ### Example Input
+
 5
+
 6
+
 cabda
+
 21
+
 yourcrushlovesyouback
+
 16
+
 wubbalubbadubdub
+
 5
+
 split
+
 7
+
 splitit
 
 
 ### Example Output
-YES
-NO
-YES
-NO
+
 YES
 
-Explanation
+NO
+
+YES
+
+NO
+
+YES
+
+### Explanation
 
 Example case 1: We can choose "cabd" as A and "ab" as B. We can see that A+B=S and B is a substring of A.
 
