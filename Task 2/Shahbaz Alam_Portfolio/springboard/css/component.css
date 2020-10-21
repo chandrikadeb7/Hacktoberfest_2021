@@ -1,0 +1,35 @@
+.button {
+	
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; 
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+	background-image: -moz-linear-gradient(90deg, #0066b2 0%, #00adef 100%); 
+	background-image: -o-linear-gradient(90deg, #0066b2 0%, #00adef 100%); 
+	background-image: -webkit-linear-gradient(90deg, #0066b2 0%, #00adef 100%); 
+	background-image: linear-gradient(90deg, #0066b2 0%, #00adef 100%); 
+}
+
+.input-box {
+	
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  display: block;
+  color: #58595b;
+  padding: 5px 10px;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; 
+	-moz-box-shadow: inset 0 0 15px rgba(35,31,32,.1); 
+	-webkit-box-shadow: inset 0 0 15px rgba(35,31,32,.1); 
+	box-shadow: inset 0 0 15px rgba(35,31,32,.1);
+}
