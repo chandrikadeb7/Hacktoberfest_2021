@@ -1,12 +1,6 @@
-
-
-
-
 #include<bits/stdc++.h>
-
 #define FASTIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 #define maxv(b) *max_element(b.begin(),b.end())
-
 typedef long long ll;
 using namespace std;
 //--------sort ------max-min---------
@@ -41,20 +35,12 @@ using namespace std;
 #define itr(it, a) 			for(auto it = a.begin(); it != a.end(); it++)
 #define cnt 				continue
 //--------const-------
-
 #define PI 	3.1415926535897932384626
-
-
-
 //--------------
-
 ll  solve()
-{
-    
+{ 
    ll n,k;
-
    scan2(n,k);
-
    ll i=0;
    ll temp;
    vector<ll> a;
@@ -64,34 +50,19 @@ ll  solve()
        a.eb(temp);
 
    }
-
    sortva(a);
-
    ll count=0;
    temp=a[0];
-
    for(i=1;i<n;i++)
    {
        if(a[i] > k)
        cnt;
        else
        {
-           
            ll temp2=abs(a[i]-k);
-
             ll temp3=temp2 / temp;
-
             count +=temp;
-
-
-
        }
-       
-
-
-
-
-
    }
 
 
@@ -100,23 +71,11 @@ return count;
 }
 int main()
 {
-		
-
         w(x)
         {
-            
             ll res=solve();
             pf(res);
 
-        }
-
-
-       
-
-        
-
-	
-		
-		
+        }	
 return 0;
 }
