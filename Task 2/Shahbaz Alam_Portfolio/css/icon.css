@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoone6d5.eot?fmqiko');
+	src:url('../font/icomoond41d.eot?#iefixfmqiko') format('embedded-opentype'),
+		url('../font/icomoone6d5.woff?fmqiko') format('woff'),
+		url('../font/icomoone6d5.ttf?fmqiko') format('truetype'),
+		url('../font/icomoone6d5.svg?fmqiko#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+	content: "\e600";
+}
+.icon-arrow-left:before {
+	content: "\e601";
+}
+.icon-arrow-up:before {
+	content: "\e602";
+}
+.icon-arrow-left2:before {
+	content: "\e603";
+}
+.icon-twitter:before {
+	content: "\e604";
+}
+.icon-facebook:before {
+	content: "\e605";
+}
+.icon-dribbble:before {
+	content: "\e606";
+}
+.icon-skype:before {
+	content: "\e607";
+}
+.icon-linkedin:before {
+	content: "\e608";
+}
+.icon-behance:before {
+	content: "\e609";
+}
+.icon-list:before {
+	content: "\e60a";
+}
+.icon-mouse:before {
+	content: "\e60b";
+}

@@ -54,3 +54,4 @@ Enter the capacity: 70
 SAMPLE OUTPUT:
 The maximum profit will be: 192
 */
+
