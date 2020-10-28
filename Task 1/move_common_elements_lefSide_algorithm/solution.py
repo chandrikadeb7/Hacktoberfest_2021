@@ -1,6 +1,3 @@
-# Algorithm:
-
-
 def move_common_leftside(arr):
     if len(arr) < 1:
         print ("lngth issues")
@@ -18,7 +15,6 @@ def move_common_leftside(arr):
         W -= 1
 
     print("Moved Array: ", arr)
-
 
 arr = [ 0, 2, 5, 0, 11, 0, 6, 8, 0, 15 ]
 
