@@ -20,3 +20,4 @@ class TrappingRain {
         return totalAmount;
     }
 }
+/* Method to find the trapped rain water */
