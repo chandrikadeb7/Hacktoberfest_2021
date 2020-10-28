@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Namisha Goyal</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- Favicon
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+
+    <!-- Stylesheets
+    ================================================== -->
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(255,255,255,0); padding: 30px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0);" data-top-bottom="background: rgba(255,255,255,1); padding: 10px 0; box-shadow: 0px 0px 20px 6px rgba(0, 0, 0, 0.2);">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="#hero">Home</a></li>
+                        <li class="page-scroll"><a href="#about">About</a></li>
+                        <li class="page-scroll"><a href="#service">Experience</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Projects</a></li>
+                        <li class="page-scroll"><a href="#contact">Contact</a></li>
+                        
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h2 id="c">Hello , I'm </h2>
+                    <h1 id="b">Namisha Goyal</h1>
+                    <div class="page-scroll">
+                        <p id="p" class="job-title">Final Year Student at NIT Hamirpur</p>
+                        <a href="#contact" class="btn btn-fill ">Contact Me</a>
+                        <div class="clearfix visible-xxs"></div>
+                        <a href="#portfolio" class="btn btn-border">Explore Me</a>
+                    </div>
+                </div>
+            
+                <div class="col-md-6 text-right">
+                    <img src="assets/img/namisha.png" alt="namisha">
+                </div>
+
+            </div>
+        </div>
+    </div><!-- /.hero -->
+
+    <main id="main" class="site-main">
+
+        <section id="about" class="site-section section-about text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h2 class="w">About</h2>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                        <p id="u">Hello! I'm Namisha, a front end developer, a data structure enthusiast, and a girl slighty obsessed for code quality.I’m currently in final year at NIT HAmirpur. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="https://drive.google.com/file/d/16u1drAfxWFwYdK1y4kgziSFhLJF4R3or/view?usp=sharing" class="btn btn-fill" target="_blank" download>Download My Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-about -->
+
+        <section class="site-section section-skills">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="w">My Skills</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4 class="o">Html</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="98"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4 class="o">Android</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4 class="o">CSS</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="82"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4 class="o">Javascript</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4 class="o">C/C++</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="95"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                        <div class="skill">
+                            <h4 class="o">Python</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="55"></div><!-- /.progress-bar -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.skill -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-skills -->
+
+        <section id="service" class="site-section section-services overlay text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 id="v">EXPERIENCE</h3>
+                        <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/front-end.svg" alt="Front End Developer">
+                            <h4 id="c">Front-end</h4>
+                            <p>As a front end developer, I have experience in HTML5 and CSS3 & have worked with organizations like SUBINFRA , covidindia.org to maintain the outloook of the website.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/back-end.svg" alt="Back End Developer">
+                            <h4 id="x">Back-end</h4>
+                            <p>Utilising SQL , SQLite & Firebase, I've written services supporting multi users, including API calls, management system applications and more.</p>
+                        </div><!-- /.service -->
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="service">
+                            <img src="assets/img/consultancy.svg" alt="Android">
+                            <h4 id="z">Android</h4>
+                            <p>As an Android developer intern, I have developed a complaint based system for NESTLE for effective management of department wise complaints managed through admin and user section.</p>
+                        </div><!-- /.service -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-services -->
+
+        <section id="portfolio" class="site-section section-portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="w">Projects</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/atSaEOeE8Nk/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Sports Fest Management System</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://github.com/namigoel/Sports-Fest-Management-System"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/yT3f9kVeLYM/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Entry Made Easy</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://github.com/namigoel/Entry-Made-Easy"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/OqtafYT5kTw/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Snake Game</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://namigoel.github.io/SnakeGame/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/MI9-PY5cyNs/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Alien War Game</h4>
+                                <a href="" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://namigoel.github.io/Alienwargame.github.io/"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/UP3SMQSoNsM/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>File Share</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://github.com/namigoel/File-Share"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="portfolio-item">
+                            <img src="https://source.unsplash.com/pypeCEaJeZY/500x500" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Efficiency Analyzer</h4>
+                                <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
+                                <a href="https://github.com/namigoel/efficiency-analyzer"><span class="glyphicon glyphicon-link"></span></a>
+                            </div><!-- /.portfolio-item-info -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.secton-portfolio -->
+
+        <section class="site-section section-counters text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="14127" data-speed="80">0</p>
+                        <h4>Rank in Jee Mains</h4>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p class="counter start" data-to="17" data-speed="2000">0</p>       
+                        <h4>Github Repositories</h4>      
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
+                        <h4>Seconds on this site!<br>Hurry Up! Contact me.</h4>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /.section-counters -->
+
+        <section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h5></h5>Having any queries or project idea,</h5>
+                <h3 class="w">Contact me</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>   
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="#" class="btn btn-border" id ="yy" type="submit">Contact Me <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
+
+    </main><!-- /#main -->
+
+    <footer id="colophon" class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12">
+                    <a class="icon facebook-bg" href="https://www.facebook.com/smarty.namisha/"><i class="icon-facebook"></i></a>
+                    <a class="icon gplus-bg" href="https://www.linkedin.com/in/namisha-goyal-a7b6b6154/"><i class="icon-linkedin"></i></a>
+                </div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">Namisha Goyal©2020</p></div>
+                <div class="col-sm-4 col-xs-3">
+                    <div class="text-right page-scroll">
+                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- /#footer -->
+
+    <!-- Modals -->
+    <div id="portfolioItem1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/atSaEOeE8Nk/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Sports Fest Management System</h4>
+            <p>This is an Android Application to make the procedure of registration during sports fest of the college an easier task. It also involves proper management of the leader board by the admin, making it easy for the non participants to have an idea about what is happening during the sports fest, being at their own ease.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/namigoel/Sports-Fest-Management-System" class="btn btn-fill">Visit Github Repository</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/yT3f9kVeLYM/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Entry Made Easy</h4>
+            <p>It is an Android Application for making college entries automatically by scanning the identity card of the student and thus save the tedious task of making manual entries while leaving the campus or hostel . It includes various image processing features like text recognition using OCR, blur detection using Laplace concept and rotating image.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/namigoel/Entry-Made-Easy" class="btn btn-fill">Visit Github Repository</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/OqtafYT5kTw/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Snake Game</h4>
+            <p>Remember your childhood's favorite game on Nokia mobile. Yes, you guessed right! Snake Game.Play it as much times you want and obtain high scores.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://namigoel.github.io/SnakeGame/" class="btn btn-fill">Visit Deployed Link</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem4" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/MI9-PY5cyNs/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Alien War Game</h4>
+            <p>A simple alien spacewar game made using HTML, CSS and Javascript. Press spacebar to release the bullets to destroy the enemy's spaceships.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://namigoel.github.io/Alienwargame.github.io/" class="btn btn-fill">Visit Deployed Link</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem5" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/UP3SMQSoNsM/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">File Share</h4>
+            <p>It is an Android Application to easily share files between two devices without internet. It is based on idea that if 2 devices are connected to same IP address, then with the help of socket, sender can act as server and receiver as client using which we can share files between two.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/namigoel/File-Share" class="btn btn-fill">Visit Github Repository</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="portfolioItem6" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a class="close" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span></a>
+            <img class="img-res" src="https://source.unsplash.com/pypeCEaJeZY/500x500" alt="">
+          </div>
+          <div class="modal-body">
+            <h4 class="modal-title">Efficiency Analyzer</h4>
+            <p>It is a python based project which depicts the overall performance of any department in an industry in the form of graph. It can also be used to analyse the months when target is not met.</p>
+          </div>
+          <div class="modal-footer">
+            <a href="https://github.com/namigoel/efficiency-analyzer" class="btn btn-fill">Visit Github Repository</a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/skrollr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
+    <script src="assets/js/jquery.countTo.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  
+</body>
+</html>
