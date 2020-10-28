@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SpringBoard Task</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="loading" style="display:none; z-index:1000; width:100%; height:100%; background-color:#fff;position:absolute;text-align:center;">
+		<img src="img/loading.gif">
+	</div>
+					<div class="container" style="margin:80px;">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="col-md-6"><input class="githubid input-box col-md-4"><button class="addprofile button col-md-2">Add</button></div>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-6" style="padding-top:20px;"><span> Sort by : </span><span class="sortN" order='0' style="margin: 10px; font-weight: 600; cursor: pointer;"> Name </span><span class="sortL" order='0' style="margin: 10px; font-weight: 600; cursor: pointer;"> Location </span><span class="sortF" order='0' style="margin: 10px; font-weight: 600; cursor: pointer;"> Followers </span></div>
+							</div>
+							
+						</div>
+					</div>
+					
+				
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 filldata">
+									
+							
+							</div>
+						</div>
+					</div>
+		
+	<!-- /container -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+		<script type="text/javascript">
+		var data=new Array();
+		var initData=["torvalds","JakeWharton","tj","addyosmani"];
+		onFirstCall();
+		function onFirstCall(){
+			$(".loading").show();
+			for(i=0;i<initData.length;i++){
+				$.ajax({
+				  url: "https://api.github.com/users/"+initData[i],
+				  success: function(resp){
+						  	console.log(resp);
+						  	data.push(resp);
+						  	addCard(resp);
+			  				refreshClose();
+						  }
+				});
+			}
+			$(".loading").hide();
+		}
+
+
+
+		$(".addprofile").click(function(){
+			$(".loading").show();
+			$.ajax({
+			  url: "https://api.github.com/users/"+$(".githubid").val(),
+			  success: function(resp){
+			  	addCard(resp);
+			  	data.push(resp);
+			  	$(".loading").hide();
+			  	refreshClose();
+			  },
+			  error: function(XMLHttpRequest, textStatus, errorThrown){
+			  		$(".loading").hide();
+			        alert("User does not exist");
+			    }
+			});
+		});
+
+
+		//Appending data using Mustache Templating Engine 
+		function addCard(resp){
+			var tpl = "<div class='col-md-3' style='margin-bottom:40px;' deleteindex='"+(data.length-1)+"'><div class='col-md-12' style='text-align:center;border: 1px solid;padding: 5px 0px 10px 0px;'><i class='fa fa-times col-md-12 close' style='position: absolute;text-align: right;font-size: 20px;color: #000;z-index: 999;''></i><a target='_blank' href='{{html_url}}'><img src='{{avatar_url}}' style='width:95%;text-align:center;'><span class='col-md-12' style='font-weight:600;padding-top:10px;'>Name : {{name}}</span><span class='col-md-12'>Location : {{location}}</span><span class='col-md-12'>Followers : {{followers}}</span></a></div></div>";
+			var html = Mustache.to_html(tpl, resp);
+			$('.filldata').append(html);
+		}
+
+		refreshClose();
+		function refreshClose(){
+			$(".close").unbind("click").click( function (e) {
+				console.log($(this).parent("div").parent("div").index());
+				data.splice($(this).parent("div").parent("div").index(),1);
+				console.log(data);
+				clearAndDrawAgain(data);
+			});
+		}
+
+		function clearAndDrawAgain(data){
+				$(".filldata").html("");
+				$(".loading").show();
+				for(i=0;i<data.length;i++){
+					addCard(data[i]);
+				}
+				refreshClose();
+				$(".loading").hide();
+		}
+		
+
+		//sort by followers
+		function sortByFollowers(a,b) {
+			  if (a.followers < b.followers)
+			    return -1;
+			  if (a.followers > b.followers)
+			    return 1;
+			  return 0;
+			}
+	
+			$(".sortF").unbind("click").click( function (e) {
+				data.sort(sortByFollowers);
+				if($(this).attr('order')=="0"){
+					$(this).attr('order',"1");
+				}else {
+					$(this).attr('order',"0");
+					data.reverse();
+				}
+				clearAndDrawAgain(data);
+			});
+
+
+			//sort by name
+
+			function sortByName(a,b) {
+			  if (a.name < b.name)
+			    return -1;
+			  if (a.name > b.name)
+			    return 1;
+			  return 0;
+			}
+	
+			$(".sortN").unbind("click").click( function (e) {
+				data.sort(sortByName);
+				if($(this).attr('order')=="0"){
+					$(this).attr('order',"1");
+				}else {
+					$(this).attr('order',"0");
+					data.reverse();
+				}
+				clearAndDrawAgain(data);
+			});
+
+
+			//sort by location
+
+			function sortByLocation(a,b) {
+			  if (a.location < b.location)
+			    return -1;
+			  if (a.location > b.location)
+			    return 1;
+			  return 0;
+			}
+	
+			$(".sortL").unbind("click").click( function (e) {
+				data.sort(sortByLocation);
+				if($(this).attr('order')=="0"){
+					$(this).attr('order',"1");
+				}else {
+					$(this).attr('order',"0");
+					data.reverse();
+				}
+				clearAndDrawAgain(data);
+			});
+
+		</script>
+</body>
+
+</html>
