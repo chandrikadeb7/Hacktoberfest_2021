@@ -22,7 +22,6 @@ int main() {
             cout<<len-1<<"\n";
         else
             cout<<len<<"\n";
-            
     }
     return 0;
 }
