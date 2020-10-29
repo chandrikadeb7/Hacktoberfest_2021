@@ -3,7 +3,7 @@ using namespace std;
 
 static int M = (int)1e9+7;
 
-long gcd(long a,long b){
+long gcd(long a,long b) {
 	if(b==0) return a;
 	return gcd(b,a%b);
 }
@@ -15,7 +15,7 @@ long powe(long a,long b) {
 	long fullpow = halfpow*halfpow%M;
 	if((b&1)==1) return fullpow*a%M;
 	return fullpow%M;
-}	
+}
 
 void main(){
 	long n;
@@ -41,4 +41,3 @@ void main(){
 	long result = powe(f,g);
 	cout<<result;
 }
-
