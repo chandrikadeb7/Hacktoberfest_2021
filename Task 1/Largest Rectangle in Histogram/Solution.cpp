@@ -1,7 +1,7 @@
 //For every bar 'x', we calculate the area with 'x' as the smallest bar in the rectangle.
 //If we calculate such area for every bar 'x' and find the maximum of all areas, our task is done. 
 //How to calculate area with 'x' as smallest bar? We need to know index of the first smaller (smaller than 'x') bar on left of 'x' and index of first smaller bar on right of 'x'.
-//This ans is simply the maximum of height*(next_smaller_index - previous_smaller_index - 1).
+//This ans is simply the maximum of height*(next_smaller_index - previous_smaller_index - 1)
 
 class Solution {
 public:
