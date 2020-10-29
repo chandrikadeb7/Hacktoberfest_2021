@@ -18,10 +18,12 @@ Print the required answer of the equation.
 
 #### Constraints:
 1 ≤ N ≤ 50
+
 1 ≤ Ai ≤ 103
 
 #### Sample Input 
 2
+
 2 6 
 
 #### Sample Output
