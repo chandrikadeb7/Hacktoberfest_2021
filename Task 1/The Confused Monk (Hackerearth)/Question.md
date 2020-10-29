@@ -19,7 +19,7 @@ Print the required answer of the equation.
 #### Constraints:
 1 ≤ N ≤ 50
 
-1 ≤ Ai ≤ 103
+1 ≤ Ai ≤ 10^3
 
 #### Sample Input 
 2
