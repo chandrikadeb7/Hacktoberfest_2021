@@ -41,3 +41,4 @@ void main(){
 	long result = powe(f,g);
 	cout<<result;
 }
+
