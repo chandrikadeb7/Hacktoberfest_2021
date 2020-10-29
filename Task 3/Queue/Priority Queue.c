@@ -1,12 +1,28 @@
-// A priority queue is a special type of queue in which each element is associated with a priority.
-// An element with high priority is dequeued before an element with low priority.
-// If elements with the same priority occur, they are served according to their order in the queue.
+/* A priority queue is a special type of queue in which each element is associated with a priority.
+   An element with high priority is dequeued before an element with low priority.
+   If elements with the same priority occur, they are served according to their order in the queue. */
+
+// Below is a C program in which a priority queue is implemented using an array.
+
+/* INPUT/OUTPUT:
+ 1 - Insert an element into queue                                                                                                              
+ 2 - Delete an element from queue                                                                                                              
+ 3 - Display queue elements                                                                                                                    
+ 4 - Exit                                                                                                                                      
+ Enter your choice : 1
+ Enter value to be inserted : 3
+ Enter your choice : 1
+ Enter value to be inserted : 8
+ Enter your choice : 1
+ Enter value to be inserted : 5
+ Enter your choice : 3
+ 8 5 3                          (Highest Element is at the front)
+ Enter your choice : 4
+*/
 
 
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #define MAX 5
 void insert_by_priority(int);
 void delete_by_priority(int);
