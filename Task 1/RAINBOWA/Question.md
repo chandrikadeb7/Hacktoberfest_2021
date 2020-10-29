@@ -20,23 +20,24 @@ There are no other elements in array.
 
 Help Chef in finding out if the given array is a Rainbow Array or not.
 
-Input
+#### Input
 The first line of the input contains an integer T denoting the number of test cases.
 The first line of each test case contains an integer N, denoting the number of elements in the given array.
 The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of array.
 
-Output
+#### Output
 For each test case, output a line containing "yes" or "no" (without quotes) corresponding to the case if the array is rainbow array or not.
 Constraints
 1 ≤ T ≤ 100
 7 ≤ N ≤ 100
 1 ≤ Ai ≤ 10
 
-Subtasks
+#### Subtasks
 Subtask 1 (100 points) : Original constraints
 
-Example
-Input
+#### Example
+
+#### Input
 3
 19
 1 2 3 4 4 5 6 6 6 7 6 6 6 5 4 4 3 2 1
@@ -45,12 +46,12 @@ Input
 13
 1 2 3 4 5 6 8 6 5 4 3 2 1
 
-Output
+#### Output
 yes
 no
 no
 
-Explanation
+#### Explanation
 The first example satisfies all the conditions.
 
 The second example has 1 element of value 1 at the beginning and 2 elements of value 1 at the end.
