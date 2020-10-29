@@ -1,3 +1,8 @@
+// A priority queue is a special type of queue in which each element is associated with a priority.
+// An element with high priority is dequeued before an element with low priority.
+// If elements with the same priority occur, they are served according to their order in the queue.
+
+
 #include <stdio.h>
 
 #include <stdlib.h>
