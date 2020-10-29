@@ -1,16 +1,16 @@
 ## Problem Statement
 
-##Given an array of positive integer, find out all the elements that are greater than or equal to all the elements to it's right side.
+#### Given an array of positive integer, find out all the elements that are greater than or equal to all the elements to it's right side.
 
-##Input format
+#### Input format
 
-##The first line contains an integer T, denoting the number of test cases.Then follows T test cases, and each test case consists of two lines. The first line contains N. Second-line contains N space-separated integers.
+#### The first line contains an integer T, denoting the number of test cases.Then follows T test cases, and each test case consists of two lines. The first line contains N. Second-line contains N space-separated integers.
 
-##Output format
+#### Output format
 
-##For each test case on a new line, print the list of positive integers satisfying the above given condition. Print from end element to start element.
+#### For each test case on a new line, print the list of positive integers satisfying the above given condition. Print from end element to start element.
 
-##Example
+#### Example
 Input
 2
 
@@ -36,7 +36,7 @@ Input
  
 2
 
-Output
+#### Output
 5
 
 2
@@ -45,9 +45,9 @@ Output
  
 4
 
-##Sample test case explanation
+## Sample test case explanation
 
-##In the first test case
+#### In the first test case
 only element 5 satisfy the condition.
 
 In the second test case 4 3 and 2 satisfy the condition and are printed from end to first.
