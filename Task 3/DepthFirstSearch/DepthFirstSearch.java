@@ -1,6 +1,9 @@
 //Depth First Search (DFS) Java Program
 /* To traverse in trees we have traversal algorithms like inorder, preorder, postorder. Same way to traverse in graphs we have mainly two types of algorithms called DFS (Depth First Search) and BFS (Breadth First Search).
 In Depth First Search traversal we try to go away from starting vertex into the graph as deep as possible. We may face the case that our search never ends because, unlike tree graph may contains loops. Since this reason we maintain a Boolean array which stores whether the node is visited or not.
+Output:
+
+1 2 5 6 4 7 8 3 9
 */
 //Below program shows implementation of dfs in Java.
 
@@ -80,6 +83,3 @@ public class DFS
     }
 }
 
-##Output
-
-1 2 5 6 4 7 8 3 9
