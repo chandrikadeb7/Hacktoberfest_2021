@@ -1,3 +1,9 @@
+//Given two sequences, find the length of longest subsequence present in both of them. Both the strings are of uppercase.
+//input: string 1 = ABCDGH
+//	 string 2 = AEDFHR
+//output:3
+//Explanation:Longest Common Subsequence for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3
+
 #include<bits/stdc++.h> 
 using namespace std; 
 
