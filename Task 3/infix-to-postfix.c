@@ -1,3 +1,4 @@
+//conversion of infix expression to postfix expression
 #include<stdio.h>
 #include<string.h>
 char stack[50];
