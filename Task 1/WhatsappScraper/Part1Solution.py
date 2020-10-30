@@ -17,9 +17,6 @@ extracted  = []
 top_messages = []
 message_dic = {}
 
-
-
-
 def chats():
     # name = driver.find_element_by_xpath("//div[@class='_1wjpf _3NFp9 _3FXB1']/span").text
     name = "scraping"
@@ -27,20 +24,13 @@ def chats():
     messages = driver.find_elements_by_xpath(m_arg)  
     print(messages)
     top_messages = messages[-1*LAST_MESSAGES:]
-    
-
     message_dic[name] = [m.text for m in top_messages]
     extracted = message_dic[name]
     print(message_dic[name])
-
-
 name = "Scraper"
 input('Enter anything after scanning QR code')
-
-
 user = driver.find_element_by_xpath('//span[@title = "{}"]'.format(name))
 user.click()
-
 ho = driver.find_element_by_tag_name('body')
 ho.click()
 
@@ -49,9 +39,7 @@ for i in range(5):
     time.sleep(4)            
 chats()
 chatbot = []
-
 print()
-
 print(extracted)
 with open("test1.txt", "wb") as fp:
     pickle.dump(message_dic["scraping"], fp)

@@ -11,8 +11,6 @@ mydb = pymysql.connect(
   passwd="mysql",
   database="finaldb"
 )
-
-
 print(mydb)
 
 mycursor = mydb.cursor()
@@ -32,13 +30,9 @@ print()
 print()
 with open("test1.txt", "rb") as fp:
     b = pickle.load(fp)
-
-
 print(b)
 
 actual_message = []
-
-
 
 def process():
     for messages in b:
@@ -51,7 +45,6 @@ def process():
 
 process()
 for i in actual_message:
-        
         event = r'(test|lab|fee|payment)'
         day = r'(mon|tue|wed|thu|fri|sat|jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|next.*week|next.*month)'
         time = r'([0-9]:[0-9]+|[0-9]+.[0-9]+).*(am|pm)'
@@ -72,8 +65,6 @@ for i in actual_message:
         if len(eventr) and len(dayr) and len(Subjectr) :
             # print(dater)
             print('Subject :' + Subjectstr +" "+ eventstr)
-            
-
             print('Day :', daystr,end = " ") 
             if len(dater):
                 print("".join(dater[0][0]))
@@ -91,8 +82,6 @@ for i in b:
 print(a)
 
 sql = "INSERT INTO scraper (subject,event,date,dept) VALUES (%s, %s, %s,'ISE')"
-
-
 
 print(mycursor.rowcount, "record inserted.")
 
@@ -118,13 +107,10 @@ for s in a[0]:
 print("hello")
 print(val)
 mycursor.executemany(sql, val)
-
 mydb.commit()   
 chatbot = []
 for i in b:
     i.replace('\n',' ')
     chatbot.append(i)
-
-
 with open("test2.txt", "wb") as fp:
     pickle.dump(chatbot, fp)
