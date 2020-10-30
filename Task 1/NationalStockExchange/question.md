@@ -1,0 +1,1 @@
+A python script to automatically download Stock exchange data from the <a href="https://www1.nseindia.com/">NSE portal </a>.
