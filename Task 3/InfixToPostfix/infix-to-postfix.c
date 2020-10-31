@@ -1,4 +1,5 @@
 //conversion of infix expression to postfix expression
+//A+B->AB+
 #include<stdio.h>
 #include<string.h>
 char stack[50];
