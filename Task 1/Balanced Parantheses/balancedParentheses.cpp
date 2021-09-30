@@ -8,7 +8,7 @@ struct Node
     Node *next;
 };
 Node *top = NULL;
-bool checkBalancedParantheses(char exp[], int len)
+bool checkBalancedParentheses(char exp[], int len)
 {
     stack<char> S;
     for (int i = 0; i < len; i++)
@@ -63,7 +63,7 @@ int main()
 {
     char c[50];
     gets(c);
-    if (checkBalancedParantheses(c, strlen(c)))
+    if (checkBalancedParentheses(c, strlen(c)))
         cout << "Parantheses are balanced";
     else
         cout << "Not balanced";
