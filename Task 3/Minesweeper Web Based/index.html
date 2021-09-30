@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        table, tr, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            height: 30px;
+            width: 30px;
+            text-align: center;
+        }
+
+        td.close {
+            background-color: grey;
+        }
+        td.flag {
+            background-color: red;
+        }
+    </style>
+</head>
+<body">
+
+<div id="board"></div>
+<div>
+
+<h1>How to play?</h1>
+<ul>
+    <li>Click anywhere on the table to start</li>
+    <li>Right Click a cell to mark a flag</li>
+    <li>Left Click to open a cell</li>
+    <li>If you open a cell that contains a bomb, the game is over</li>
+    <li>The goal is to open all cell without triggering the bombs</li>
+</ul>
+
+</div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
