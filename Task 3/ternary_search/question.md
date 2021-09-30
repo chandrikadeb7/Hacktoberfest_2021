@@ -1,0 +1,1 @@
+C++ program to illustrate recursive approach to ternary search.

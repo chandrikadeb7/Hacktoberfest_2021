@@ -1,5 +1,5 @@
-# :star_struck: Hacktoberfest_2020 :star_struck:
-![](https://github.com/chandrikadeb7/Hacktoberfest_2020/blob/main/readme%20pic.jpeg)
+# :star_struck: Hacktoberfest_2021 :star_struck:
+![Screenshot 2021-09-29 at 12 29 41 AM](https://user-images.githubusercontent.com/29686102/135149193-d87a9188-6b54-4839-80dd-48d2a4983a80.png)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
@@ -11,7 +11,7 @@
 
 ### This repository is open to all members of the GitHub community. Any member can contribute to this project! :grin:
 
-:point_right: Repo Link : [https://github.com/chandrikadeb7/Hacktoberfest_2020](https://github.com/chandrikadeb7/Hacktoberfest_2020)
+:point_right: Repo Link : [https://github.com/chandrikadeb7/Hacktoberfest_2021](https://github.com/chandrikadeb7/Hacktoberfest_2021)
 
 ## What is Hacktoberfest? :thinking:
 A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
@@ -20,13 +20,13 @@ A month-long celebration from October 1st to October 31st presented by [Digital 
 
 
 ## Rules :fire:
-To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2020 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 70,000__ participants who complete the challenge will earn a T-shirt.
+To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2021 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 70,000__ participants who complete the challenge will earn a T-shirt.
 
 ## Choose from these tasks :rainbow:
 
 Here are 3 quick and easy ways to contribute to this project:
 
-## Task 1: [Add your program question and solution](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201) :innocent:
+## Task 1: [Add your program question and solution](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%201) :innocent:
 Add any programming question and its solution in a separate folder and make your way to Open Source.
 
 :star: The file structure will be as follows:
@@ -37,9 +37,9 @@ Add any programming question and its solution in a separate folder and make your
 ├── <solution> (Solution file in any language including C/Java/Python etc.)
 ```
 
-:eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%201)
+:eyes: Upload your contribution here in this folder [Task 1](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%201)
 
-## Task 2: [Submit your Own portfolio page](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202) :eyes:
+## Task 2: [Submit your Own portfolio page](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%202) :eyes:
 Host your very own portfolio page in minutes and share with us to get nearer to swags
 
 You can take help from one of my blogs :point_right: [Visit Blog](https://medium.com/analytics-vidhya/portfolio-website-the-beginners-way-d43be855217e)
@@ -51,9 +51,9 @@ You can take help from one of my blogs :point_right: [Visit Blog](https://medium
 ├── <all files/folders> (In any language including C/Java/Python etc.)
 ```
 
-:eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%202)
+:eyes: Upload your contribution here in this folder [Task 2](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%202)
 
-## Task 3: [Show Your Algorithm Skills](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203) :rocket:
+## Task 3: [Show Your Algorithm Skills](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%203) :rocket:
 Help us in making a one-stop place to find necessary codes and articles, which can vary from `Hello World` to `Dynamic Programming` in any language of your choice.  
 :star: The file structure will be as follows:
 
@@ -62,7 +62,7 @@ Help us in making a one-stop place to find necessary codes and articles, which c
 ├── <implementation file> (With commented sample input/output. In any language including C/Java/Python etc.)
 ```
 
-:eyes: Upload your contribution here in this folder [Task 3](https://github.com/chandrikadeb7/Hacktoberfest_2020/tree/main/Task%203)
+:eyes: Upload your contribution here in this folder [Task 3](https://github.com/chandrikadeb7/Hacktoberfest_2021/tree/main/Task%203)
 
 ## Choose one or all 3, make a pull request for your work and wait for it to be merged! :heart:
 
@@ -76,9 +76,9 @@ Star the repo by pressing the topmost-right button to start your wonderful journ
 
 ### 1. Fork it :fork_and_knife:
 
-You can get your own fork/copy of [HacktoberFest_2020](https://github.com/chandrikadeb7/Hacktoberfest_2020) by using the <a href="https://github.com/chandrikadeb7/Hacktoberfest_2020/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/chandrikadeb7/Hacktoberfest_2020/new/master?readme=1#fork-destination-box) at top-right of your screen.
+You can get your own fork/copy of [HacktoberFest_2021](https://github.com/chandrikadeb7/Hacktoberfest_2021) by using the <a href="https://github.com/chandrikadeb7/Hacktoberfest_2021/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/chandrikadeb7/Hacktoberfest_2021/new/master?readme=1#fork-destination-box) at top-right of your screen.
 
- [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/chandrikadeb7/Hacktoberfest_2020)
+ [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/chandrikadeb7/Hacktoberfest_2021)
 
 
 ### 2. Clone it :busts_in_silhouette:
@@ -88,16 +88,16 @@ You can get your own fork/copy of [HacktoberFest_2020](https://github.com/chandr
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/Hacktoberfest_2020.git
+$ git clone https://github.com/Your_Username/Hacktoberfest_2021.git
 ```
 
 > This makes a local copy of the repository in your machine.
 
-Once you have cloned the `Hacktoberfest_2020` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
+Once you have cloned the `Hacktoberfest_2021` repository in Github, move to that folder first using change directory command on Linux, Mac, and Windows(PowerShell to be used).
 
 ```sh
-# This will change directory to a folder Hacktoberfest_2020
-$ cd Hacktoberfest_2020
+# This will change directory to a folder Hacktoberfest_2021
+$ cd Hacktoberfest_2021
 ```
 
 Move to this folder for all other commands.
@@ -108,14 +108,14 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin  https://github.com/Your_Username/Hacktoberfest_2020.git (push)
+origin  https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
+origin  https://github.com/Your_Username/Hacktoberfest_2021.git (push)
 ```
 
-Now, let's add a reference to the original [Hacktoberfest_2020](https://github.com/chandrikadeb7/Hacktoberfest_2020/) repository using
+Now, let's add a reference to the original [Hacktoberfest_2021](https://github.com/chandrikadeb7/Hacktoberfest_2021/) repository using
 
 ```sh
-$ git remote add upstream https://github.com/chandrikadeb7/Hacktoberfest_2020.git
+$ git remote add upstream https://github.com/chandrikadeb7/Hacktoberfest_2021.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -124,18 +124,18 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (push)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2020.git (fetch)
-upstream  https://github.com/Remote_Username/Hacktoberfest_2020.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest_2021.git (push)
+upstream  https://github.com/Remote_Username/Hacktoberfest_2021.git (fetch)
+upstream  https://github.com/Remote_Username/Hacktoberfest_2021.git (push)
 ```
 `In your case, you will see`
 ```sh
 $ git remote -V
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (fetch)
-origin    https://github.com/Your_Username/Hacktoberfest_2020.git (push)
-upstream  https://github.com/chandrikadeb7/Hacktoberfest_2020.git (fetch)
-upstream  https://github.com/chandrikadeb7/Hacktoberfest_2020.git (push)
+origin    https://github.com/Your_Username/Hacktoberfest_2021.git (fetch)
+origin    https://github.com/Your_Username/Hacktoberfest_2021.git (push)
+upstream  https://github.com/chandrikadeb7/Hacktoberfest_2021.git (fetch)
+upstream  https://github.com/chandrikadeb7/Hacktoberfest_2021.git (push)
 ```
 
 ### 4. Sync it :recycle:
@@ -153,13 +153,13 @@ $ git checkout main
 # Reset local `main` branch to match the `upstream` repository's `main` branch
 $ git reset --hard upstream/main
 
-# Push changes to your forked `Hacktoberfest_2020` repo
+# Push changes to your forked `Hacktoberfest_2021` repo
 $ git push origin main
 ```
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/chandrikadeb7/Hacktoberfest_2020/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Good First Issue` Issues and creating [pull requests](https://github.com/chandrikadeb7/Hacktoberfest_2021/pulls).
 
 ### 6. Create a new branch :bangbang:
 
@@ -204,8 +204,8 @@ Finally, go to your repository in the browser and click on `compare and pull req
 Then add a title and description to your pull request that explains your precious effort.
 
 ## Awesome contributors :star_struck:
-<a href="https://github.com/chandrikadeb7/Hacktoberfest_2020/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=chandrikadeb7/Hacktoberfest_2020" />
+<a href="https://github.com/chandrikadeb7/Hacktoberfest_2021/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=chandrikadeb7/Hacktoberfest_2021" />
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).

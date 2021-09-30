@@ -1,0 +1,124 @@
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after {display: table;  content: ''; }
+.clearfix:after { clear: both; }
+
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	color: #3C4954;
+	background: #fff;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	outline: none;
+	color: #E91E63;
+	text-decoration: none;
+}
+
+.theme-2 a { color: #2196F3; }
+.theme-3 a { color: #009688; }
+
+a:hover, a:focus {
+	color: #1F3546;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+/* Header */
+.heading {
+	padding: 2em 1em 2em;
+	text-align: center;
+}
+
+.heading h1 {
+	margin: 0.5em 0 0;
+	letter-spacing: -1px;
+	font-size: 3em;
+	line-height: 1;
+}
+
+.heading h1 span {
+	display: block;
+	padding: 0.5em 0 1em;
+	color: #A4B0B9;
+	font-weight: normal;
+	font-size: 0.45em;
+}
+
+
+/* Content */
+.content {
+	padding: 5em 0 8em;
+	text-align: center;
+}
+
+/* Related demos */
+.content--related {
+	text-align: center;
+	font-weight: bold;
+}
+
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+}
+
+.media-item__img {
+	max-width: 100%;
+	opacity: 0.6;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+
+.media-item__title {
+	margin: 0;
+	padding: 0.5em;
+	font-size: 1em;
+	color: #A4B0B9;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+.media-item:hover .media-item__title,
+.media-item:focus .media-item__title {
+	color: #3C4954;
+}
+
+@media screen and (max-width: 50em) {
+	.heading {
+		padding: 3em 10% 4em;
+	}
+	.content {
+		padding: 0 0 5em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.heading h1 {
+		font-size: 2.8em;
+	}
+}

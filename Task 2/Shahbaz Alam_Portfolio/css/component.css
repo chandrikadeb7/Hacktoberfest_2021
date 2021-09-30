@@ -1,0 +1,576 @@
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 0px 0 45px;
+	  margin-bottom: 55px;
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
+	
+}
+
+
+.cbp-fwslider ul li > a.prjct_img{
+	pointer-events:none;
+	cursor: default;
+}
+
+
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+.cbp-fwslider nav span {
+	position: absolute;
+  top: 40%;
+    width: 48px;
+  height: 28px;
+
+  color: #fff;
+  text-align: center;
+  margin-top: -50px;
+  line-height: 100px;
+  cursor: pointer;
+  opacity: 0.5
+}
+
+.cbp-fwslider nav span:hover {
+	
+	opacity: 1;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+	  background: url(../img/right.svg) no-repeat;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+	  background: url(../img/left.svg) no-repeat;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #C23B3B;
+  margin: 6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+	background: #ffffff;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #ffffff;
+	box-shadow: 0 0 0 2px #ff857d;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+/* CSS Styles for form Element */
+
+.simform {
+	position: relative;
+	margin: 0 auto;
+	min-height: 135.5px;
+	max-width: 860px;
+	width: 100%;
+	text-align: left;
+	font-size: 2.5em;
+	color: #838383;
+}
+
+.simform .submit {
+	display: none;
+}
+
+/* Question list style */
+.simform ol {
+	margin: 0;
+	font-size: 2rem;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	-webkit-transition: height 0.4s;
+	transition: height 0.4s;
+}
+
+.simform ol:before {
+	content: '';
+	background-color: rgba(0,0,0,0.1);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2.35em;
+}
+
+.questions li {
+	z-index: 100;
+	position: relative;
+	visibility: hidden;
+	height: 0;
+	-webkit-transition: visibility 0s 0.4s, height 0s 0.4s;
+	transition: visibility 0s 0.4s, height 0s 0.4s;
+}
+
+.questions li.current,
+.no-js .questions li {
+	visibility: visible;
+	height: auto;
+	-webkit-transition: none;
+	transition: none;
+}
+
+/* Labels */
+.questions li > span {
+	display: block;
+	overflow: hidden;
+}
+
+.questions li > span label {
+	display: block;
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.questions li.current > span label,
+.no-js .questions li > span label {
+	-webkit-transition: none;
+	transition: none;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.show-next .questions li.current > span label {
+	-webkit-animation: moveUpFromDown 0.4s both;
+	animation: moveUpFromDown 0.4s both;
+}
+
+@-webkit-keyframes moveUpFromDown {
+	from { -webkit-transform: translateY(100%); }
+	to { -webkit-transform: translateY(0); }
+}
+
+@keyframes moveUpFromDown {
+	from { -webkit-transform: translateY(100%); transform: translateY(100%); }
+	to { -webkit-transform: translateY(0); transform: translateY(0); }
+}
+
+/* Input field */
+.questions input {
+	display: block;
+	margin: 0.3em 0 0 0;
+	padding: 0.5em 1em 0.5em 0.7em;
+	width: calc(100% - 2em);
+	border: none;
+	background: transparent;
+	color: rgba(0,0,0,0.8);
+	font-size: 1em;
+	line-height: 1;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.questions .current input,
+.no-js .questions input {
+	opacity: 1;
+}
+
+.questions input:focus,
+.simform button:focus {
+	outline: none;
+}
+
+/* Next question button */
+.next {
+	position: absolute;
+	right: 0;
+	top: 1.3em; /* padding-bottom of form plus progress bar height */
+	display: block;
+	padding: 0;
+	width: 2em;
+	height: 2em;
+	border: none;
+	background: none;
+	color: rgba(0,0,0,0.4);
+	text-align: center;
+	opacity: 0;
+	z-index: 100;
+	cursor: pointer;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translateX(-20%);
+	transform: translateX(-20%);
+	pointer-events: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.next:hover {
+	color: #000;
+	background: none;
+}
+
+.next::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 2rem;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 2;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.next.show {
+	opacity: 1;
+
+	font-size: 2.5rem;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+	pointer-events: auto;
+}
+
+/* Progress bar */
+.simform .progress {
+	width: 0%;
+	height: 0.15em;
+	background: rgba(0,0,0,0.3);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+.simform .progress::before {
+	position: absolute;
+	top: auto;
+	width: 100%;
+	height: inherit;
+	background: rgba(0,0,0,0.05);
+	content: '';
+}
+
+/* Number indicator */
+.simform .number {
+	position: absolute;
+	right: 0;
+	overflow: hidden;
+	margin: 0.4em 0;
+	width: 3em;
+	font-weight: 700;
+	font-size: 0.4em;
+}
+
+.simform .number:after {
+	position: absolute;
+	left: 50%;
+	content: '/';
+	opacity: 0.4;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.simform .number span {
+	float: right;
+	width: 40%;
+	text-align: center;
+}
+
+.simform .number .number-current {
+	float: left;
+}
+
+.simform .number-next {
+	position: absolute;
+	left: 0;
+}
+
+.simform.show-next .number-current {
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.simform.show-next .number-next {
+	-webkit-animation: moveUpFromDown 0.4s both;
+	animation: moveUpFromDown 0.4s both;
+}
+
+/* Error and final message */
+.simform .error-message,
+.simform .final-message {
+	position: absolute;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.4s;
+	transition: opacity 0.4s;
+}
+
+.simform .error-message {
+	padding: 0.4em 3.5em 0 0;
+	width: 100%;
+	color: rgba(0,0,0,0.7);
+	font-style: italic;
+	font-size: 0.4em;
+}
+
+.final-message {
+	top: 50%;
+	left: 0;
+	padding: 0.5em;
+	width: 100%;
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.error-message.show,
+.final-message.show {
+	visibility: visible;
+	opacity: 1;
+}
+
+.final-message.show {
+	-webkit-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+
+/* Final hiding of form / showing message */
+.simform-inner.hide {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, visibility 0s 0.3s;
+	transition: opacity 0.3s, visibility 0s 0.3s;
+}
+
+/* No JS Fallback */
+.no-js .simform {
+	font-size: 1.75em;
+}
+
+.no-js .questions li {
+	padding: 0 0 2em;
+}
+
+.no-js .simform .submit {
+	display: block;
+	float: right;
+	padding: 10px 20px;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	color: rgba(0,0,0,0.4);
+}
+
+.no-js .simform .controls {
+	display: none;
+}
+
+/* Remove IE clear cross */
+input[type=text]::-ms-clear {
+    display: none;
+}
+
+/* Adjust form for smaller screens */
+@media screen and (max-width: 44.75em) {
+	.simform {
+		font-size: 1.8em;
+	}
+}
+
+@media screen and (max-width: 33.5625em) {
+	.simform {
+		font-size: 1.2em;
+	}
+}
+
+
+/*Responsive CSS*/
+
+@media only screen and (max-width: 64em) {
+
+
+
+.speedEffect {
+	display: none;
+}
+.loadAnim {
+	display: none;
+}
+header {
+	display: none;
+}
+.cd-headline img {
+	display: none;
+}
+
+section.intro{
+      padding-top: 0px;
+      padding-bottom: 30px;
+      background:black;
+  }
+
+  img {
+  	width: 100%;
+  }
+
+  hr {
+  	display: none;
+  }
+
+  section.intro h1{
+      margin-top: 0px;
+        font-size: 35px;
+       
+  }
+  .iama ,
+  .cd-words-wrapper {
+  	font-size:25px;
+  }
+
+  .logo {
+    margin-top:20px !important;
+    width:50%;
+  }
+
+
+	section.about h1 {
+		margin-top: 20px;
+		margin-bottom: 0px;
+		font-size: 40px;
+	}
+	section.about p {
+		font-size: 18px;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.numbers {
+	    width: 100% !important;
+	    margin-bottom: 20px;
+	}
+	section.numbers-wrapper {
+  		margin-bottom: 30px;
+  	}
+
+  	.cbp-fwslider ul li > a img {
+  		max-width: 50%;
+  	}
+
+  	section.projects h1 {
+  		font-size: 40px;
+  	}
+
+  	section.projects h2.name {
+  		margin-top: 0.5 rem;
+    	font-size: 25px;
+	}
+	section.projects p.desc {
+    	font-size: 10px;
+	}
+	.cbp-fwslider {
+    	margin-bottom: 35px;
+	}
+	section.myskills h1 {
+	    font-size: 60px;
+	}
+	section.myskills p {
+	    margin-top: 0px;
+	}
+	section.quotes {
+    	border: 0px;
+	}
+
+	section.quotes h1 {
+	    font-size: 30px;
+	    margin-top: 30px;
+	}
+
+	section.quotes h2 {
+	    font-size: 12px;
+	    margin-top: 20px;
+	 }
+	 section.quotes p {
+	    margin: 0 auto;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    font-size: 15px;
+	}
+
+	section.coffeewithme h1 {
+	    font-size: 30px;
+	    margin-top: 0px;
+	}
+	section.coffeewithme p {
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	    font-size: 15px;
+	}
+	.simform {
+		min-height: 66.67px;
+	}
+	.simform ol {
+	    font-size: 1rem;
+	}
+	.next.show {
+    	font-size: 1.2rem;
+    }
+    section.sayhello {
+    	padding-top: 10px;
+    }
+    section.sayhello p {
+	    font-size: 15px;
+	    margin-left: 4px;
+	}
+	.madewithlove {
+	  padding-top:10px;
+	  padding-bottom: 10px;
+	}
+}
