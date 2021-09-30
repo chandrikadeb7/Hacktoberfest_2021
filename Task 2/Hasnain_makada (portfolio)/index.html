@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Site Icon.svg" type="image/x-icon">
+    <script>
+       var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 8) || 20;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 100 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid black}";
+        document.body.appendChild(css);
+    };
+    </script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+      .container2{
+        font-family: "Montserrat", sans-serif;
+        font-size: 22px;
+        text-align: center;
+        font-weight: 600;
+      }
+      *{
+        text-decoration: none;
+      }
+      #container7{
+        /* padding-bottom: 100px; */
+        width: auto;
+        height: auto;
+        background-color:white;
+        text-align: center;
+        /* color:black; */
+        /* padding-top:10em; */
+        color: white;
+        text-decoration: none;
+        }
+        .footer{
+          position: static;
+            /* padding: 10px 10px 0px 10px; */
+            padding-bottom:10px;
+            margin-bottom: 13px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            
+        }
+    </style>
+    <title>Hasnain Makada</title>
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light text-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Skills.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Education.html">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container90 my-3">
+  <h1 style="text-align: center;">
+    <img src="Person.svg" alt="" width="50px" height="50px">
+    About
+  </h1>
+  <hr>
+  <br>
+    <h1 id="container7">
+        <a href="" style="text-decoration: none; color: black;" class="typewrite" data-period="2000" data-type='[ "Hey There &#128075; I am Hasnain Makada", "A Programmer", "A Java Enthusiast", "A CSE Student", "And An Open Source Enthusiast."]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
+ <br>
+  <div class="text-center">
+    <img src="MyIMG(2)Cropped.jpg" class="rounded img-thumbnail" alt="image" height="100" style="border: 1px solid rgb(184, 182, 182);" width="300">
+  </div>
+  <!-- <img src="Ownimg2.jpeg" class="rounded img-thumbnail" alt="..." > -->
+</div>
+<br>
+<div class="container2">
+  <p>
+      I am an 19 year old studying diploma in computer engineering, Interested to contribute in open source projects and on android development projects also.
+      <br>
+      Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
+  </p>
+</div>
+<div class="footer">
+<footer _ngcontent-serverapp-c52="" class="container-fluid bg-light my-0 py-3 text-dark"><p _ngcontent-serverapp-c52="" class="mb-0 text-center">Copyright © 2020-2021</p></footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
+</html>
