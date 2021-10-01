@@ -3,7 +3,11 @@ import java.util.Scanner;
 class Solution{
     public static int findDuplicate(int[] nums) {
         int i=0;
-        while(i<nums.length){
+        // While loop sort the array using cyclic sort method
+        // Time Complexity : O(n)
+        // Space Complexity : O(1)
+        // Cyclic sort can apply [1,n] (1 to n) number only.
+         while(i<nums.length){
             if(nums[i] != nums[nums[i]-1]){
                 swap(nums, i, nums[i]-1);
             }
