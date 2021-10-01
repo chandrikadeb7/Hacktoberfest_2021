@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type:y mandatory;
+    overflow-y:scroll;
+    /* Yay !!!!! 😀😀😀 */
+}
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    color:white;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+/* basic setting done */
+
+/* header css starts here */
+header{
+    position: fixed;
+    top:0%;
+    left:0%;
+    width: 100%;
+    height: 12vh;
+    transition:height 0.5s;
+}
+header.sticky{
+    height: 9vh;
+    background:linear-gradient(rgba(78, 78, 78, 0.5),rgba(237, 237, 238, 0.5));
+    transition:height 0.5s;
+    box-shadow: 5px 0px 5px rgba(63, 63, 63, 0.5);
+}
+#logo{
+    font-size:2em;
+    color:white;
+    font-family: 'Montserrat';
+    position: fixed;
+    top:2%;
+    left: 2%;
+    transition: 0.5s;
+}
+#intro{
+    background:#252627;
+    /* background: #181818; */
+    background: linear-gradient(rgba(27,80,163,0.5),rgba(144,82,167,0.7));
+    background-size: cover;
+    background-position: center;
+}
+ .navbar{
+    position: fixed;
+    top:2%;
+    right: 2%;
+    list-style-type: none;
+    max-width: 449px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+ul li a {
+    font-family:'Montserrat';
+    text-decoration:none;
+    display: block;
+    padding:10px;
+    color:white;
+    font-size:1.1em;
+    transition: 0.8s;
+}
+ /* .navbar-links:hover a,.active_links a{
+    background:white;
+    color:black;
+}  */
+@keyframes moveDown{
+    from{
+        opacity: 0.3;
+        visibility: hidden;
+        transform:translateX(-150px);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+  }
+/* header css ends here  */
+
+
+/* intro page css starts here */
+.intro_page_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+} 
+.intro_page_content h1{
+    font-size: 12.5vw;
+    font-family: 'Overpass';
+    background: url('../images/m1\ \(4\).jpg') 0% 55%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+    user-select: none;
+}
+
+.intro_page_content h2{
+    font-size:5vw;
+    font-weight: 500;
+    font-family: 'Pacifico',cursive;
+    margin-top:22px;
+    user-select: none;
+}
+.intro_page_content h6{
+    font-size: 2vw;
+    margin-top:30px;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+    user-select: none;
+}
+@keyframes moveDown{
+    from{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-90px);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }
+/* intro section css ends here */
+
+/* about me section css starts here */
+#aboutme{
+    display: flex;
+    background: linear-gradient(rgba(70, 121, 155, 0.5),rgba(116, 25, 161, 0.5));
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.myinfo,.myskills{
+    max-width:500px;
+    width:100%;
+}
+.myinfo h1,.myskills h2{
+    font-size:3.2vw;
+    font-weight: 500;
+    font-family: 'Pacifico',cursive;
+    margin-bottom: 15px;
+    margin-top:20px;
+    user-select: none;
+}
+.myskills h2{
+    font-size: 3.2vw;
+}
+.logoName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background:linear-gradient(rgba(95, 94, 94, 0.5),rgba(110, 110, 110, 0.5));
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:3px;
+    transition: 0.2s;
+}
+.logoName:hover{
+    background:linear-gradient(rgba(201, 198, 198, 0.5),rgba(26, 25, 25, 0.5));
+    box-shadow: 8px 4px 8px rgba(82, 81, 82, 0.6);
+}
+.logoName h1{
+    font-size: 2vw;
+}
+#hidden{
+    display: none;
+}
+@keyframes moveLeft{
+    from{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(200px);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+  }
+.myinfo p{
+    font-size: 1.3vw;
+    font-family: 'Montserrat';
+    text-align:left;
+}
+/* about me section css ends here */
+
+#aboutme, #projects, #contactme{
+    background-size: cover;
+    background-position: center;
+}
+
+/* project section css starts here */
+#projects{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    background: linear-gradient(rgba(70, 121, 155, 0.5),rgba(116, 25, 161, 0.5));
+    /* background: linear-gradient(rgba(10, 138, 63, 0.5),rgba(64, 3, 87, 0.5)); */
+}
+.project_information h2{
+    font-size:4vw;
+    font-weight: 500;
+    font-family: 'Pacifico',cursive;
+    margin-top:90px;
+    margin-bottom: 20px;
+    user-select: none;
+    perspective: 10;
+}
+.p_title{
+    line-height: 30px;
+}
+.product-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-title a{
+    text-decoration:none;
+    padding:4px 8px 4px 8px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
+}
+@keyframes moveRight{
+    from{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-160px);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0px);
+    }
+  }
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide {
+    background-position: left;
+    background-size: cover;
+    width: 320px;
+    height: 325px;
+    border-radius: 8px;
+    background:whitesmoke;
+  }
+  .swiper-pagination-bullet{
+      background: white;
+  }
+/* test code here */
+.box {
+    position: relative; /* to make child elements position relative to itself */
+    width:320px;
+    height: 325px;
+    background: #000;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius:8px;
+  }
+  .box .imgbx{
+    position: absolute;
+    top: 0;
+    left:0px;
+    width:100%;
+    height: 82%; /* takes 82% of the height from top */
+  }
+  .box .imgbx img {
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    transition: 0.5s;
+    border-radius:8px 8px 0px 0px;
+  }
+  /* .box:hover .imgbx img {
+    opacity: 0;
+  } */
+  .box .content {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:18%; /* takes 14% height from bottom */
+    background-color:whitesmoke;
+    color:black;
+    transition: 0.5s;
+    overflow:hidden;
+    padding: 15px;
+    box-sizing:border-box;
+    border-radius:0px 0px 8px 8px;
+  }
+  /* .box .active_project{
+    width:100%;
+    height:100%;
+    bottom: 0px;
+    left:0px;
+    border-radius:8px 8px 8px 8px;
+  } */
+  .box .content h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    line-height:32px;
+  }
+/* test code ends */ 
+/* TEST SUCCESSFULL 😀 */
+/* project section css ends here */
+
+/* contact section css starts here */
+#contactme{
+    background: linear-gradient(rgba(70, 121, 155, 0.5),rgba(116, 25, 161, 0.5));
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: space-evenly;
+}    
+#contactme h1{
+    font-size:4vw;
+    font-weight: 500;
+    font-family: 'Pacifico',cursive;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.socialMedia{
+    display: flex;
+    justify-content:space-evenly;
+    height:50vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.socialMedia > div{
+    width:100%;
+    max-width:400px;
+    height: 170px;
+    margin-left:15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(90, 89, 89, 0.5);
+    background:linear-gradient(rgba(122, 122, 122, 0.5),rgba(237, 237, 238, 0.5));
+    /* background: red; */
+    transition:2s;
+}
+.socialMedia > div:hover{
+    background:linear-gradient(to right,rgba(212, 209, 209, 0.3),rgba(189, 187, 187, 0.5));
+    /* background: yellow; */
+}
+.linkedin,.mail{
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 45px;
+    padding-right: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_info{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.socialMedia > div .contact_info h3{
+    color:white;
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    opacity:1;
+    visibility: visible;
+    transition:visibility 1s, opacity 1s;
+}
+/* .socialMedia > div:hover .contact_info{
+    opacity:0;
+    visibility: hidden;
+} */
+
+@keyframes moveUp{
+    from{
+        opacity: 0;
+        visibility: hidden;
+        perspective: 0;
+        transform: translateY(150px);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        perspective: 10;
+        transform: translateY(0px);
+    }
+  }
+/* contact section css ends here */
+
+/* copyright */
+#copyright{
+    position: absolute;
+    top:395%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* copyright ends here */
+
+@media screen and (max-width:799px){
+    .navbar{
+        display:none;
+    }
+    #copyright{
+        display: none;
+        /* top:550%;
+        font-size: 2.8vw; */
+    }
+    #aboutme{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #hidden{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(70, 121, 155, 0.5),rgba(116, 25, 161, 0.5));
+    }
+    .myskills{
+        display: none;
+    }
+    .myskills2,.myinfo{
+        max-width:500px;
+        width:100%;
+    }
+    .myinfo p{
+        font-size: 4vw;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-family: 'Montserrat';
+        text-align:left;
+    }
+    .myskills2 h2,.myinfo h1{
+        font-size:8vw;
+        font-weight: 500;
+        font-family: 'Pacifico',cursive;
+        margin-bottom: 20px;
+        margin-top:20px;
+        margin-left: 10px;
+        user-select: none;
+    }
+    .myinfo h1{
+        margin-left:15px;
+    }
+    .logoName{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background:linear-gradient(rgba(95, 94, 94, 0.5),rgba(110, 110, 110, 0.5));
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top:3px;
+        transition: 0.25s;
+    }
+    .logoName h1{
+        font-size: 6vw;
+    }
+    @keyframes emerge{
+        from{
+            opacity: 0;
+            padding:2px;
+            visibility: hidden;
+        }
+        to {
+            visibility: visible;
+            padding: 8px;
+            opacity: 1;
+        }
+      }
+}
+@media screen and (max-width:500px){
+    .project_information h2,#contactme h1{
+        font-size: 8vw;
+    }
+    .intro_page_content h2{
+        font-size:8vw;
+    }
+    .intro_page_content h6{
+        font-size:3.5vw;
+    }
+}
