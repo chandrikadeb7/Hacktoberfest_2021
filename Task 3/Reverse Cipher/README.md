@@ -35,5 +35,9 @@ After the script is run, enter:
 2. Passing the input parameter to the revers_cipher function.
 3. revers_cipher returns the reversed string , and output is printted
 
+## Output Image
+
+<img src="../Reverse Cipher/Images/reverse_cipher.png"> 
+
 
 
