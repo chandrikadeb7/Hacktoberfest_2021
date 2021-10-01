@@ -205,7 +205,7 @@ Then add a title and description to your pull request that explains your preciou
 
 ## Awesome contributors :star_struck:
 <a href="https://github.com/chandrikadeb7/Hacktoberfest_2021/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=chandrikadeb7/Hacktoberfest_2021" />
+  <img src="https://contributors-img.web.app/image?repo=chandrikadeb7/Hacktoberfest_2021&max=300" />
 </a>
 
 Made with [contributors-img](https://contributors-img.web.app).
