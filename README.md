@@ -14,10 +14,11 @@
 :point_right: Repo Link : [https://github.com/chandrikadeb7/Hacktoberfest_2021](https://github.com/chandrikadeb7/Hacktoberfest_2021)
 
 ## What is Hacktoberfest? :thinking:
-A month-long celebration from October 1st to October 31st presented by [Digital Ocean](https://hacktoberfest.digitalocean.com/) and [DEV Community](https://dev.to/) collaborated with [GitHub](https://github.com/blog/2433-celebrate-open-source-this-october-with-hacktoberfest) to get people involved in [Open Source](https://github.com/open-source). Create your very first pull request to any public repository on GitHub and contribute to the open-source developer community.
+Hacktoberfest — brought to you by [DigitalOcean](https://hacktoberfest.digitalocean.com/) in partnership with [GitHub](https://github.blog/2017-09-27-celebrate-open-source-this-october-with-hacktoberfest/) and [Intel](https://www.intel.in/) — is a month-long celebration of open source software. Maintainers are invited to guide would-be contributors towards resolving issues that will help move the project forward, and contributors get the opportunity to give back to both projects they like, and ones they've just discovered. **No contribution is too small** — bug fixes and documentation updates are valid ways of participating. Celebrated every month of October based on the German festivity Oktoberfest.
 
-[https://hacktoberfest.digitalocean.com/](https://hacktoberfest.digitalocean.com/)
+Hacktoberfest is *open to everyone* in the global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an [ever-growing community](https://github.com/open-source). 
 
+Visit the official website of [Hacktoberfest] (https://hacktoberfest.digitalocean.com/).
 
 ## Rules :fire:
 To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2021 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 50,000__ participants who complete the challenge will earn a T-shirt.
