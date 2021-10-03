@@ -2,7 +2,7 @@ Given an array of n non-negative integers a1, a2, ..., an , where each element r
 
 Note: You may not slant the container.
 
-Example:
+Example:<br>
 a) Input: n=9<br>
 lines = [1,8,6,2,5,4,8,3,7]<br>
 Output: 49<br>
