@@ -3,22 +3,22 @@ Given an array of n non-negative integers a1, a2, ..., an , where each element r
 Note: You may not slant the container.
 
 Example:
-a) Input: n=9
-lines = [1,8,6,2,5,4,8,3,7]
-Output: 49
+a) Input: n=9<br>
+lines = [1,8,6,2,5,4,8,3,7]<br>
+Output: 49<br>
 Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water the container can contain is 49 which lies between the index(1,8) i.e, between the line 8 at 1st position and line 7 at 8th position.
 
 
-b) Input: n=5
-lines = [4,3,2,1,4]
-Output: 16
+b) Input: n=5<br>
+lines = [4,3,2,1,4]<br>
+Output: 16<br>
 Explanation: The container containing most water lies between the index 0 and 4 i.e, between the line 4 at 0th position and line 4 at 4th position.
 
 
 Approach: Two Pointer Approach
 
 The max area is calculated by the following formula:
-Area= (j - i) * min(lines[i], lines[j])
+Area= (j - i) * min(lines[i], lines[j])<br>
 
 We should choose (i, j) so that Area is max. Note that i, j go through the range (1, n) and j > i.
 The simple way is to take all possibilities of (i, j) and compare all obtained Area. The time complexity will be O(n)^2.
