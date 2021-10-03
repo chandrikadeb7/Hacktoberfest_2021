@@ -1,0 +1,1 @@
+Write a program to find a unique number in an array where all numbers except one, are present thrice.
