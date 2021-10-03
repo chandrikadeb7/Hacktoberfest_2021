@@ -18,7 +18,7 @@ Hacktoberfest — brought to you by [DigitalOcean](https://hacktoberfest.digital
 
 Hacktoberfest is *open to everyone* in the global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an [ever-growing community](https://github.com/open-source). 
 
-Visit the official website of [Hacktoberfest] (https://hacktoberfest.digitalocean.com/).
+Visit the official website of [Hacktoberfest](https://hacktoberfest.digitalocean.com/).
 
 ## Rules :fire:
 To qualify for the __official limited edition Hacktoberfest shirt__, you must register [here](https://hacktoberfest.digitalocean.com/) and make four Pull Requests (PRs) between October 1-31, 2021 (in any time zone). PRs can be made to any public repo on GitHub, not only the ones with issues labeled Hacktoberfest. This year, the __first 50,000__ participants who complete the challenge will earn a T-shirt.
