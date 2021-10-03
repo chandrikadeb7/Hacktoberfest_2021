@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-------------- HOME SECTION ------------------------->
+    <section id="home">
+      <div class="navbar">
+        <nav>
+          <div class="logo" data-aos="fade-right">
+            <a href="#"> <img src="images/logo.png" alt=""></a>
+            <!-- <h2>Almas.</h2> -->
+          </div>
+          <ul data-aos="fade-in">
+            <li ><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education-projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="social" data-aos="fade-left">
+            <a href="https://www.linkedin.com/in/almas-dinani/" target=blank><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/almas06" target=blank><i class="fa fa-github"></i></a>
+            <a href="#" target=blank><i class="fa fa-twitter"></i></a>
+          </div>
+          <div class="bars">
+            <a href=""><i class="fa fa-bars"></i></a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header">
+        <div class="header-text" data-aos="fade-down" >
+          <p>I'm</p>
+          <h1>Almas Dinani</h1>
+          <h3>Web Developer</h3>
+        </div>
+      </div>
+
+      <div class="scroll-btn">
+        <a href="#about"><i class="fa fa-sort-down"></i></a>
+      </div>
+    </section>
+
+    <!-------------- ABOUT SECTION ------------------------->
+    <section id="about">
+      <div class="about">
+        <div class="profile-img" data-aos="fade-up">
+          <img src="images/profile.png" alt="">
+        </div>
+        <div class="about-content" data-aos="fade-left">
+          <h1>Almas Dinani</h1>
+          <h3>Web Developer</h3>
+          <p>Computer Science student currently pursuing a Bachelor's degree from Modern Education Society's College of Engineering.
+            Interested in Frontend Development and a passion for Web designing and User Interface Development.
+             Data structures & algorithms enthusiast.
+          </p> 
+          <div class="about-list">
+          <p><b>From :</b>  Pune</p>
+          <p><b>Email :</b>  almas********1@gmail.com</p>
+          <p><b>Phone :</b>  +91 830*******</p>
+          </div>
+          <div class="cv-btn">
+            <a href="#"><button onclick="downloadCV()">Download CV</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------SKILLS SECTION--------------------- -->
+    <section id="skills">
+      <p class="strengths">Strengths</p>
+      <h1 data-aos="fade-in">My Skills</h1>
+      <div class="skills" data-aos="fade-up" data-aos-duration="1500">
+        <div class="coding-skills">
+          <h2>Coding Skills</h2>
+          <p>C++</p>
+          <progress class="progress-bar" value="70" max="100">70%</progress>
+          <p>Python</p>
+          <progress  class="progress-bar" value="60" max="100">60%</progress>
+          <p>HTML + CSS</p>
+          <progress class="progress-bar" value="80" max="100">80%</progress>
+          <p>Django</p>
+          <progress class="progress-bar" value="55" max="100">55%</progress>
+          <p>Wordpress</p>
+          <progress class="progress-bar" value="80" max="100">80%</progress>
+        </div>
+        <div class="design-skills">
+          <h2>Design Skills</h2>
+          <p>UI Design</p>
+          <progress class="progress-bar" value="70" max="100">70%</progress>
+          <p>Website Design</p>
+          <progress class="progress-bar" value="55" max="100">55%</progress>
+          <p>Graphic Designing</p>
+          <progress class="progress-bar" value="65" max="100">65%</progress>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------EDUCATION & PROJECTS SECTION------------------------------------- -->
+    <section id="education-projects">
+      <div class="education-projects">
+        <div class="education" data-aos="fade-left" data-aos-duration="1000">
+          <h1>Education</h1>
+          <p>2019 - Present</p>
+          <div class="course-name">
+            <h4>B.E Computer Science</h4>
+            <h5>Modern Education Society's College of Engineering</h5>
+            <h6>CGPA (till date) : 9.66 </h6>
+          </div>
+          <p>2017 - 2019</p>
+          <div class="course-name">
+            <h4>H.S.C Science</h4>
+            <h5>St. Mira's College for Girls, Pune</h5>
+            <h6>69%</h6>
+          </div>
+          <p>2006 - 2017</p>
+          <div class="course-name">
+            <h4>S.S.C</h4>
+            <h5>Dr. Mrs. Erin N. Nagarvala Day School, Pune</h5>
+            <h6>84%</h6>
+          </div>
+        </div>
+        <div class="projects" data-aos="fade-left" data-aos-duration="1000">
+          <h1>Projects</h1>
+          <p>Aug 21 - Present</p>
+          <div class="course-name">
+            <h4>Official Website - <a href="https://anantaseva.com" target=blank>Ananta Seva Foundation</a></h4>
+            <h5>Wordpress</h5>
+            <ul>
+              <li>Ananta Seva is a Kolkata based non-profit organization.</li>
+              <li>The website was developed in Wordpress.</li>
+              <li>I designed and developed the frontend of the website.</li>
+            </ul>
+          </div>
+          <p>Jul 21 - Present</p>
+          <div class="course-name">
+            <h4>NextSource Website</h4>
+            <h5>HTML, CSS, Bootstrap & Django</h5>
+            <ul>
+              <li>This Website provides lot of resources to learn Computer science related subjectslike Datastructure, OOP etc.</li>
+              <li>The website's frontend is developed using HTML, CSS and Bootstrap and backend using Django framework</li>
+              <li>Functionalities of Login and Signup is provided to the user.</li>
+              <li>The website helps with video as well as theory resources.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------Project Gallery Section----------------------------------->
+    <section id="gallery">
+      <p>Photos</p>
+      <h1  data-aos="fade-in">Project Gallery</h1>
+      <div class="gallery-1">
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/a1.png" data-lightbox="mygallery"><img src="images/a1.png" alt=""></a>
+        </div>
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/a2.png" data-lightbox="mygallery"><img src="images/a2.png" alt=""></a>
+        </div>
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/a3.png" data-lightbox="mygallery"><img src="images/a3.png" alt=""></a>
+        </div>
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/a4.png" data-lightbox="mygallery"><img src="images/a4.png" alt=""></a>
+        </div>
+      </div>
+      <div class="gallery-2">
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/n1.png" data-lightbox="mygallery"><img src="images/n1.png" alt=""></a>
+        </div>
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/a5.png" data-lightbox="mygallery"><img src="images/a5.png" alt=""></a>
+        </div>
+        <div class="gallery-image" data-aos="fade-in">
+          <a href="images/n3.png" data-lightbox="mygallery"><img src="images/n3.png" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------Contact Section----------------------------------- -->
+    <section id="contact">
+      <p>Contact</p>
+      <h1>Get in touch</h1>
+      <div class="contact">
+        <div class="map" data-aos="zoom-in">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30258.576899159438!2d73.86503227410945!3d18.559511242706847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1209df24047%3A0x89db7c87936467e5!2sYerawada%2C%20Pune%2C%20Maharashtra%20411006!5e0!3m2!1sen!2sin!4v1631444095998!5m2!1sen!2sin"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contact-form" data-aos="fade-up">
+          <form action="mailto:almas.dinani01@gmail.com">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="textarea" name="message" placeholder="Enter your message here" required>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </section>
+
+  <!-- -----------------------Softwares used--------------------------------------- -->
+  <section id="softwares">
+    <h2 data-aos="fade-in">Softwares Used</h2>
+    <div class="softwares">
+      <div class="software" data-aos="fade-up">
+        <img src="images/1.png" alt="">
+      </div>
+      <div class="software" data-aos="fade-down">
+        <img src="images/2.png" alt="">
+      </div>
+      <div class="software" data-aos="fade-down">
+        <img src="images/4.png" alt="">
+      </div>
+      <div class="software" data-aos="fade-up">
+        <img src="images/5.png" alt="">
+      </div>
+      <div class="software" data-aos="fade-up">
+        <img src="images/3.png" alt="">
+      </div>
+    </div>
+  </section>
+    <!-- ------------------FOOTER SECTION------------------------------------------- -->
+
+    <section id="footer">
+      <div class="footer">
+        <div class="copyright-text">
+          Copyright © 2045. All rights reserved | This Portfolio is made with <i class="fa fa-heart"></i> by Almas Dinani
+        </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------SCRIPTS------------------------------------------------- -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      easing: 'ease',
+    });
+  </script>
+
+  </body>
+</html>
