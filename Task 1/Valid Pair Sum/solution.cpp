@@ -33,6 +33,7 @@ long long ValidPair(int a[], int n)
     return c;
 }   
 
+
 int main()
 {
     int n;
