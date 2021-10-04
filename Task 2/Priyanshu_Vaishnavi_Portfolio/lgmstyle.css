@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --background-color: rgb(52, 52, 63);
+    --yellow-color: rgb(236, 78, 30);
+    --secondary-color: rgb(203, 204, 187);
+    --bg-color-of-lists-in-skills-section: rgb(66, 66, 66);
+
+}
+* {
+    font-family: "Poppins" , sans-serif;
+}
+
+body {
+    background-color: var(--background-color) !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, td, a {
+    cursor: pointer;
+}
+
+canvas.particles-js-canvas-el {
+    position: absolute;
+    height: 100% !important;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1000;
+    margin: 0px;
+}
+
+/* Navbar */
+
+.nav_section .navbar-brand {
+    font-size: 20px;
+}
+
+.nav_section .navbar-brand span {
+    color: var(--yellow-color) ;
+}
+.nav_section .navbar-nav li {
+    margin: 0px 8px;
+}
+.nav_section .navbar-nav li a {
+    color: cornsilk !important;
+    font-size: 16px;
+}
+.nav_section .navbar-nav .nav-link::before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    background-color:rgb(231, 219, 216);
+    position: absolute;
+    bottom: 7px;
+    transition: 0.5s;
+}
+.nav_section .navbar-nav .nav-link:hover::before{
+   content: '';
+   height: 3px;
+   width: 26px;
+   background-color:beige;
+   position:absolute;
+   bottom: 7px; 
+}
+
+.hero_section .row{
+    display: flex;
+    align-items: center;
+    height: 100vh
+}
+
+.hero_section .row h1,h2,h3,p{
+    color: bisque;
+}
+.hero_section .row h3{
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 15px ;
+}
+.hero_section .row h3::after {
+    content: '';
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 90px;
+    height: 1.5px;
+    background-color: bisque;
+    margin-left: 6px;
+}
+.hero_section .row h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.hero_section .row h2 {
+    font-size: 23px;
+    font-weight: 130;
+    margin: 8px 0px;
+}
+.hero_section .row p{
+    font-size: 16px;
+    margin-top: 13px;
+    line-height: 21px;
+    color: var(--secondary-color);
+}
+.hero_section .row button {
+    border-radius: 15px;
+    font-size: 15px;
+    color: ghostwhite;
+    background-color: var(--yellow-color);
+    border: 3px solid var(--yellow-color);
+    width: 118px;
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 12px;
+}
+.hero_section .row button:hover {
+    animation: swing;
+    animation-duration: 0.5s;
+    background: white;
+    color: black;
+    border-color: white;
+}
+.hero_section .row img {
+     width: 47%;
+}
+
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .hero_section .row h1 {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 993px) and (min-width: 763px) {
+    .hero_section .row h1 {
+        font-size: 42px;
+    }
+    .hero_section .row h2 {
+        font-size: 15px;
+    }
+    .hero_section .row p {
+        font-size: 11px;
+    }
+    .hero_section .row h3 {
+        font-size: 15px;
+    }
+    .hero_section .row button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 763px) and (min-width: 500px) {
+    .hero_section {
+        margin: 65px 0px;
+    }
+    .hero_section .row h1 {
+        font-size: 46px;
+        text-align: center;
+    }
+    .hero_section .row h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .hero_section .row p {
+        font-size: 11px;
+        text-align: center;
+    }
+    .hero_section .btn_container {
+        justify-content: center;
+        text-align: center;
+    }
+    .hero_section .row h3 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .hero_section .row h3::after {
+        width: 0px;
+    }
+    .hero_section .btn_container button {
+        width: 101px;
+        height: 44px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .hero_section img {
+        width: 60%;
+        margin-top: 20px;
+    }
+}
+
+/* About Me Section */
+.about_section {
+    background-color: rgb(73, 73, 87);
+    padding: 170px 0px;
+}
+.about_section #heading {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    line-height: 57px;
+}
+.about_section .lets_connect_on {
+    color: bisque;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.about_section #vaishnavipriyanshu198_gmail {
+    font-weight: 600;
+    font-size: 20px;
+    color: goldenrod;
+    margin-top: 35px;
+    word-spacing: 6px;
+}
+.about_section .contact_info {
+    margin-top: 15px;
+}
+.about_section .contact_info h5{
+    color: rgb(248, 233, 174);
+    font-size: 17px;
+    font-weight: 400;
+    word-spacing: 6px;
+}
+.about_section .about_me_right_section #txt {
+     font-size: 15px;
+     margin-top: 13px;
+     line-height: 25px;
+     color: rgb(243, 194, 72);
+}
+.about_section .about_me_right_section hr {
+    margin: 0px;
+    border: 0.5px solid goldenrod;
+    width: 6rem;
+}
+.about_section .about_me_right_section table td {
+    border: none;
+    color: rgb(248, 233, 174);
+    font-size: 17px;
+}
+.about_section .about_me_right_section button {
+    border-radius: 7px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(243, 192, 62);
+    border: 3px solid rgb(243, 192, 62);
+    font-family: 'Poppins' , sans-serif;
+    margin-top: 10px;
+}
+.about_section .about_me_right_section button:hover {
+    animation: swing;
+    animation-duration: 0.5s;
+}
+
+@media (max-width: 993px) and (min-width: 768px) {
+    .about_section .about_me_right_section #txt {
+        font-size: 12px;
+    }
+    .about_section #heading {
+        font-size: 28px !important;
+    }
+}
+
+
+/* Skills Section */
+.skills_section {
+    background-color: rgba(88, 88, 102, 0.815);
+    padding: 100px 0px;
+}
+.skills_section_left_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.skills_section #heading {
+    font-weight: 600;
+    font-size: 50px;
+}
+.skills_section hr {
+    border: 0.5px solid rgb(238, 105, 16);
+    width: 6rem;
+    margin: 12px 0px;
+}
+.skills_section p {
+    color: var(--secondary-color);
+    font-size: 17px;
+}
+.skills_section .social_media_icons .list-group-item {
+    border: none;
+    color: papayawhip;
+    border-left: 2px solid rgb(238, 105, 16);
+    border-radius: 0px;
+    margin: 5px 0px;
+    width: 208px;
+    background: var(--bg-color-of-lists-in-skills-section);
+    font-size: 14px;
+
+}
+.skills_section .social_media_icons .list-group-item a {
+    transition: 0.6s;
+}
+.skills_section .social_media_icons .list-group-item:hover a {
+    margin-left: 10px;
+}
+.skills_section_right_section .each_skills {
+    margin: 25px 0px;
+}
+.skills_section_right_section .each_skills span {
+    color: cornsilk;
+    font-size: 17px;
+}
+.skills_section_right_section .each_skills .progress {
+    border-radius: 100px;
+    margin-top: 3px;
+    height: 10px;
+}
+.skills_section_right_section .each_skills .progress-bar{
+    color: transparent;
+}
+
+/* Certificate Section */
+
+.certificates {
+    background-color: rgb(58, 72, 87);
+    padding: 90px 0px;
+}
+
+.certificates .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+.certificates .box-container .box {
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.certificates .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.certificates .box-container .box:hover img {
+    transform: scale(1.2);
+}
+
+/* Experience Section */
+.experience {
+    padding: 90px 2px;
+}
+
+.experience .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+.experience .box-container .box {
+    position: relative;
+    flex: 1 1 33rem;
+    border-left: .2rem solid orangered;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    margin-left: 2rem;
+}
+.experience .box-container .box::before {
+    content: '';
+    position: absolute;
+    top:0; left: -1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background: orangered;
+}
+.experience .box-container .box .content {
+    background: peachpuff;
+    padding:1.5rem;
+    box-shadow: 0.5rem 1rem grey;
+    border-radius: .5rem;
+}
+.experience .box-container .box .content span {
+    color: #fff;
+    font-size: 1rem;
+    background: orangered;
+    border-radius: 8rem;
+    padding: 0.1rem .5rem;
+}
+.experience .box-container .box .content h3{
+    font-size: 1.5rem;
+    padding: .1rem 0;
+    color: #111;
+}
+.experience .box-container .box .content p{
+    font-size: 1.1rem;
+    color: black;
+}
+
+/* Contact Section */
+.contact_section {
+    background: rgb(44, 48, 49);
+    padding: 90px 2px;
+    padding-bottom: 150px;
+}
+.contact_section .heading {
+    font-weight: 520;
+    font-size: 45px;
+}
+.contact_section hr {
+    border: 0.5px solid orangered;
+    width: 6rem;
+    margin: 12px 0px;
+}
+.contact_section .txt {
+    color: gold;
+    font-size: 16px;
+}
+.contact_section form .form-control {
+    background: rgb(71, 70, 70);
+    border: 2px solid rgb(170, 169, 169);
+    border-radius: 0px;
+    color: rgb(250, 250, 250);
+}
+.contact_section form button {
+    background: var(--yellow-color);
+    border: 2px solid var(--yellow-color);
+    color: white;
+    width: 110px;
+    font-size: 17px;
+}
+.contact_section form button:hover {
+    animation: swing;
+    animation-duration: 0.5s;
+}
+.contact_section ul li {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+.contact_section ul li .fa {
+    color: var(--yellow-color);
+}
+
+@media (max-width: 990px) and (min-width: 767px) {
+     .contact_section .heading {
+         font-size: 38px;
+     }
+}
+
+/* Footer area */
+.footer-area {
+    background:  rgb(67, 69, 70);
+    border-top: 1.5px solid var(--secondary-color);
+    padding: 20px 0px;
+}
+.footer-area .navbar-brand {
+    font-size: 23px;
+}
+.footer-area p {
+    margin-top: 13px;
+    color: bisque;
+    font-size: 15px;
+}
+.footer-area .logo-area .fa {
+    color: rgb(243, 200, 10);
+    font-size: 25px !important;
+    /*border: 2px solid rgb(243, 200, 10); */
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.footer-area .logo-area .fa:hover {
+    animation: swing;
+    animation-duration: 0.5s;
+    background-color: white;
+} 
+.footer-area .row .column .heading {
+    font-weight: 400 !important;
+    font-size: 23px;
+    color: whitesmoke;
+}
+.footer-area .list-group .list-group-item {
+    margin: -3px 0px;
+    color: white;
+    transition: 0.5s !important;
+}
+.footer-area .list-group .list-group-item i {
+    font-size: 10px;
+    color: yellow;
+    transition: 0.5s;
+}
+.footer-area .list-group .list-group-item:hover i {
+       padding-right: 10px;
+}
+.footer-area ul li {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+.footer-area ul li .fa {
+    color: yellow;
+}
+
+@media (max-width: 767px) and (min-width: 500px) {
+    .footer-area .links {
+        margin-bottom: 30px;
+    }
+    .footer-area .row .column .heading {
+        font-size: 17px !important;
+    }
+    
+}
+
+.bottom center {
+    padding: 5px;
+    font-size: .9rem;
+    background: whitesmoke;
+}
+.bottom center span {
+    color: black;
+}
+.bottom center a {
+    color: rgb(26, 27, 100);
+    font-weight: 200;
+    text-decoration: none;
+}
+.bottom center a:hover {
+    text-decoration: underline;
+}
+.bottom .credit{
+    padding: 1rem 0 0 0;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 100;
+    color: rgb(252, 13, 13);
+    
+  }
+
