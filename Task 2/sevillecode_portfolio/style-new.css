@@ -1,0 +1,581 @@
+@charset "utf-8";
+@import url(//fonts.googleapis.com/css?family=Playball);
+/* Theme Name: The Lake beneath the Opera
+Author: Paula Luther
+*/
+
+
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+
+html {
+scroll-behavior: smooth;
+}
+body {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#03318C,  endColorStr=#1763A6)";
+	background: -o-linear-gradient( top,rgb(3,49,140) , rgb(23,99,166) );
+
+	background: -ms-linear-gradient( top,rgb(3,49,140) , rgb(23,99,166) );
+
+	background: -moz-linear-gradient( top,rgb(3,49,140) , rgb(23,99,166) );
+
+	background: -webkit-linear-gradient( top,rgb(3,49,140) , rgb(23,99,166) );
+
+	background: linear-gradient( top,rgb(3,49,140) , rgb(23,99,166) );
+
+
+
+
+
+	
+	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(1,10,38);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(3,49,140);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: black;
+}
+#writing {
+	clear:both !important;
+}
+.row {
+	clear:both !important;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		6;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 0.0%;
+	padding-right: 0.0%;
+	background-color: #dceef2;
+	
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	/*border-right-width: 14px;
+	border-left-width: 14px;
+	border-right-style: double;
+	border-left-style: double;
+	border-right-color: #1763a6;
+	border-left-color: #1763a6;*/
+}
+
+/* Header */
+#header {
+	clear: both;
+	margin-left: 0;
+	float: left;
+	width: 100%;
+	display: block;
+	background-color: rgb(23,99,166);
+	text-align: left;
+	text-shadow: 3px 3px 3px rgb(0,0,0);
+}
+#header h1, #header h2 {
+	font-family: "Playball", cursive;
+	color: #dceef2;
+}
+.text-center {
+    font-family: "Playball", cursive;
+}
+#header a {
+	color: #dceef2;
+	text-decoration: none;
+}
+#nav {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#1763a6,  endColorStr=#dceef2)";
+	background: -o-linear-gradient( top,rgb(23,99,166) , rgb(220,238,242) );
+
+	background: -ms-linear-gradient( top,rgb(23,99,166) , rgb(220,238,242) );
+
+	background: -moz-linear-gradient( top,rgb(23,99,166) , rgb(220,238,242) );
+
+	background: -webkit-linear-gradient( top,rgb(23,99,166) , rgb(220,238,242) );
+
+	background: linear-gradient( top,rgb(23,99,166) , rgb(220,238,242) );
+}
+#nav ul li {
+	display: inline-block;
+	margin: 5px;
+	list-style-type: none;
+	font-size: medium;
+	/*float: left;*/
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+#nav ul li:hover, #nav ul li:focus {
+	margin-top: -500px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
+	
+	-moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+#nav ul ul {
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+	background-color: rgb(23,99,166);
+	color: white;
+	float: left;
+	width: 300px;
+	padding-top: 1px;
+	padding-left: 0;
+	position: absolute;
+	top: 1.5em;
+	left: -999em;
+	z-index: 99999;
+}
+#nav  ul ul ul {
+	left: -999em;
+	top: 0;
+}
+#nav ul ul a {
+	/*width: 200px;*/
+	color: white;
+}
+#nav ul ul ul:hover {
+	text-decoration: underline;
+}
+#nav ul ul li {
+}
+#nav li:hover > a {
+}
+#nav ul ul:hover > a {
+}
+#nav ul ul a:hover {
+}
+#nav ul li:hover > ul {
+	left: auto;
+}
+#nav ul ul li:hover > ul {
+	left: 50%;
+	top: 1.4em;
+	margin-top: 0;
+}
+#nav .current_page_item a,
+#nav .current-menu-item a {
+}
+.menu-toggle {
+	display: none;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+article {
+	padding: 10px;
+	width:95%;
+	margin-right:auto;
+	margin-left:auto;
+	font-size:15px;
+	
+}
+article a {
+	text-decoration: underline;
+}
+article a:hover, article a:focus {
+	text-decoration: none;
+}
+article img {
+	-webkit-box-shadow:  2px 2px 5px 4px rgb(1,10,38);
+        
+        box-shadow:  2px 2px 5px 4px rgb(1,10,38);
+}
+article img a:hover, article img a:focus {
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+ul li a {
+	color: black;
+	listy-style-type:square;
+}
+figure {
+	display: block;
+	float: left;
+	
+	border: 5px double rgb(1,10,38);
+	background-color: rgb(3,49,140);
+}
+/*figure img {
+	margin-top: 8px;
+	margin-left: 17px;
+}*/
+figure a img:hover, .portfolio a img:focus {
+  -ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+figure figcaption {
+	 display: block;
+	float: left;
+	width: 96%;
+	padding: 5px;
+	margin-top: 10px;
+	font-size: 93%;
+	text-align: center;
+}
+figcaption a {
+	color:white;
+}
+figcaption a:hover {
+	color:white;
+	text-decoration: underline;
+}
+figcaption a:visited {
+    color:white;
+    text-decoration: underline;
+}
+#sidebar {
+	clear: both;
+	float: left;
+	max-height: 999px;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: rgb(23,99,166);
+	color: #dceef2;
+}
+#sidebar a {
+	color: white;
+}
+#sidebar p, #sidebar h2, #sidebar form {
+	padding: 3px;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Gradient(gradientType=0, startColorStr=#1763a6,  endColorStr=#ffffff)";
+	background: -o-linear-gradient( top,rgb(220,238,242) , rgb(255,255,255) );
+
+	background: -ms-linear-gradient( top,rgb(220,238,242) , rgb(23,99,166) );
+
+	background: -moz-linear-gradient( top,rgb(220,238,242) , rgb(23,99,166) );
+
+	background: -webkit-linear-gradient( top,rgb(220,238,242) , rgb(23,99,166) );
+
+	background: linear-gradient( top,rgb(220,238,242) , rgb(23,99,166) );
+}
+#nav {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	/*padding-left: 1.1625%;
+	padding-right: 1.1625%;*/
+	background-color: #dceef2;
+}
+#header {
+	clear: both;
+	/*float: left;*/
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav {
+	clear: both;
+	/*float: left;*/
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#sidebar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#fullwidth {
+	clear: both;
+	/*float: left;*/
+	margin-left: 0;
+	width: 100%;
+	display: block;
+	background-color: #dceef2;
+}
+	figure {
+		width: 230px;
+	height: 200px;
+	margin: 10px;
+	}
+#comments {
+	padding-left: 3px;
+}
+textarea {
+	width: 100%;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 95%;
+	/*max-width: 1232px;*/
+	padding-left: 0.0%;
+	padding-right: 0.0%;
+	margin: auto;
+	background-color: #dceef2;
+}
+#header {
+	clear: both;
+	/*float: left;*/
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#nav {
+	clear: both;
+	/*float: left;*/
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#content {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	/*width: 69.3877%;*/
+	width:100%;
+	display: block;
+}
+
+#sidebar {
+	clear: none;
+	float: left;
+	height: 999px;
+	margin-left: 2.0408%;
+	width: 28.5714%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+h1.entry-title{
+	color: rgb(52,78,129);
+	margin-left: 10px;
+}
+h2.text-center {
+    font-family: "Playball", cursive;
+}
+
+#comments {
+	width: 99%;
+}
+textarea {
+	width: 95%;
+}
+
+
+#thumbnails {
+	margin-left:0;
+}
+
+/* slideshow styles */
+* {
+  box-sizing: border-box;
+}
+#slideshow {
+	transform: scale(0.8);
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  margin-right:auto;
+   margin-left:auto;
+}
+.mySlides:first-of-type {
+	display: block;
+}
+.mySlides img {
+	width:95%;
+	height:95%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Remove bottom margin. Needed for some browsers */
+img {
+  margin-bottom: -4px;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  /*width: 16.66%;*/
+  width: 8em;
+  margin-bottom:1em;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
