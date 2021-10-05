@@ -1,4 +1,4 @@
-# Euclidean Algorithm is used to find the GCD of two, or more number.
+# Euclidean Algorithm is used to find the GCD of two, or more number. And its Time Complexity is O(log(min(a,b))) & Space Complexity is O(1).
 
 # GCD Function
 def GCD(abs(a), abs(b)):              # abs is absolute because for negative numbers gcd will be absolute value, so make it absolute 
