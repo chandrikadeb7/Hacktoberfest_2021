@@ -1,7 +1,7 @@
 # Euclidean Algorithm is used to find the GCD of two, or more number.
 
 # GCD Function
-def GCD(a, b):
+def GCD(abs(a), abs(b)):              # abs is absolute because for negative numbers gcd will be absolute value, so make it absolute 
   if b == 0:                          # If b = 0, it is the termination step for the recursion 
     return a
   
