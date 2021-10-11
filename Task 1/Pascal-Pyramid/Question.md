@@ -1,0 +1,1 @@
+Write a C program to display a **pascal's pyramid**, taking "_number of rows_" as **input from user**.
