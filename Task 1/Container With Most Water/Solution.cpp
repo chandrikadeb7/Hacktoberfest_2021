@@ -49,4 +49,4 @@ int maxArea(vector<int>& lines){
   	cout<<ans<<"\n";
   	
   	return 0;
-  }  
+  }
