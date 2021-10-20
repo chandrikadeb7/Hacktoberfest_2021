@@ -1,0 +1,346 @@
+body {
+  position: relative;
+  color: var(--dark);
+}
+
+:root {
+  --aqua: #00E0FC;
+  --dark: #343839;
+  --darkblue: #015F6B;
+  --blue2: #008C9E;
+  --sky: #00B4CB;
+}
+
+.blue2 {
+  color: var(--blue2);
+}
+
+.btn-demo {
+  border: 2px solid var(--blue2);
+  color: var(--blue2);
+  transition: 1s;
+}
+
+.btn-demo:hover {
+  background-color: var(--darkblue);
+  color: white;
+}
+
+.darkblue {
+  color: var(--darkblue);
+}
+
+.sky {
+  color: var(--sky);
+}
+
+.h90 {
+  height: 90vh;
+}
+
+.w50 {
+  width: 50%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 0 20px;
+  font-weight: 800;
+  text-decoration-style: dotted;
+}
+
+.font-2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.border-r {
+  border: 1px dashed var(--sky);
+  border-radius: 10px;
+}
+
+section {
+  padding-top: 7em;
+}
+
+.parent {
+  padding: 5% 1em;
+}
+
+.song {
+  padding: 10% 0;
+}
+
+.bg-img-p {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), url(../assets/images/portada.jpeg) center center;
+  background-size: cover;
+  color: white;
+}
+
+.title {
+  font-size: 4em;
+}
+
+.name {
+  font-size: 1.6em;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.color2 {
+  color: var(--aqua);
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.5em;
+}
+
+.color-1 {
+  color: var(--aqua);
+  font-family: 'Grand Hotel', cursive;
+  font-size: 1.5em;
+}
+
+.li-style {
+  background: var(--sky);
+  color: white;
+  border-radius: 4px;
+  padding: 4px 9px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.style-none {
+  list-style: none;
+  padding: 0;
+}
+
+.white {
+  color: white !important;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.space {
+  letter-spacing: 4px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: transparent;
+  border-bottom: 2px solid var(--aqua);
+  border-radius: 0;
+}
+
+.index {
+  z-index: 2;
+}
+
+.relative {
+  position: relative;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.aqua {
+  color: var(--aqua);
+}
+
+.w80 {
+  width: 80%;
+}
+
+.font-s3 {
+  font-size: 5em;
+}
+
+.font-s4 {
+  font-size: 2em;
+}
+
+.btn-visit {
+  border-bottom: 1px solid var(--aqua);
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.btn-visit:hover {
+  background-color: var(--aqua);
+  color: black !important;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-sub {
+  background-color: transparent;
+  border: none;
+}
+
+.bar {
+  background-color: var(--aqua);
+  color: black;
+}
+
+.prog {
+  height: 2rem;
+  background-color: grey;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.box-skills {
+  color: var(--aqua);
+  border: 1px solid var(--aqua);
+  border-radius: 10px;
+  padding: 8px 3px;
+  margin: 0 5px;
+  font-size: 11px;
+  transition: 1s;
+}
+
+.p10 {
+  padding: 10px 0px;
+}
+
+.box-skills:hover {
+  background-color: var(--aqua);
+  color: black;
+  font-weight: 800;
+}
+
+.capitalLetter {
+  float: left;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 80px;
+  line-height: 68px;
+  padding: 2px;
+  margin-right: 5px;
+}
+
+.font-w1 {
+  font-weight: 600;
+}
+
+.bt-color {
+  border-top: 2px solid grey;
+}
+
+.bg-black {
+  background-color: var(--dark);
+}
+
+.h10 {
+  height: 10vh;
+}
+
+.p5 {
+  padding: 5em;
+}
+
+.h100 {
+  height: auto;
+}
+
+.mt-7 {
+  margin-top: 5em;
+}
+
+.mb-7 {
+  margin-bottom: 10em;
+}
+
+.img-w {
+  width: 300px;
+  border-radius: 10px;
+  border: .6em solid white;
+  box-shadow: 0px 2px 12px -4px rgba(0, 0, 0, 0.75);
+  transform: rotate(-4deg)
+}
+
+.W90 {
+  width: 200px;
+}
+
+.w902 {
+  width: 213px;
+}
+
+.wgoals {
+  width: 240px;
+}
+
+.link {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  transition: 1s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: var(--sky);
+}
+
+.h10 {
+  height: 10vh;
+}
+
+.h90 {
+  height: 90vh;
+}
+
+.f14 {
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 960px) {
+  .wgoals {
+    width: 290px;
+  }
+  .f14 {
+    font-size: 18px;
+  }
+  .h300 {
+    height: 340px;
+  }
+  .name {
+    font-size: 2em;
+  }
+  .title {
+    font-size: 5em;
+  }
+  .transparent {
+    background-color: transparent !important;
+    padding-top: 25px;
+  }
+  .h100 {
+    height: 100vh;
+  }
+  .h10 {
+    height: 10vh;
+  }
+  .h90 {
+    height: 90vh;
+  }
+  .w60 {
+    width: 60%;
+  }
+  .img-w {
+    width: 300px;
+    border-radius: 10px;
+  }
+  .absolute {
+    position: absolute;
+    bottom: 0;
+  }
+}
