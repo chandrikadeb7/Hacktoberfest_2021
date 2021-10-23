@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <title>My Portfolio Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">SDR</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sulagna</span><br> Web Developer</h1>
+
+                    <a href="#" class="button">Hire Me!</a>
+                </div>
+                <div class="home__social">
+                    <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
+                    <a href="https://github.com/Sulagna-Dutta-Roy" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+                <div class="home__img">
+                    <img src="Images/Home.jpeg" alt="">
+                </div>
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="https://images.pexels.com/photos/5473298/pexels-photo-5473298.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Sulagna</h2>
+                        <p class="about__text">I am Sulagna Dutta Roy.Currently pursuing bachelor of technology in electronics and communications
+                            at Coochbehar Government engineering college.I am a frontend developer and cloud support enthusiast.
+                        </p><br/>   
+                        <a href="https://drive.google.com/file/d/1IZHNiVF1IpD2f7miSy86ApgDyqvNCFqs/view?usp=drivesdk" class="button">My Resume</a> 
+                    </div>                                   
+                </div>
+            </section>
+            </main>
+
+            <br/><br/><br/>
+            <br/><br/><br/>
+        <!-------------------------------------->
+        <section class="skills" id="skills">
+            <h1><span>My </span>Skills</h1>
+            <div class="row">
+              <div class="skills1">
+                <h2>Programming Languages</h2>
+                <h3>C</h3>
+                <h3>C++</h3>
+                <h3>Python</h3>
+              </div>
+            <div class="skills2">
+                <h2>Developer Languages</h2>
+                <h3>Html</h3>
+                <h3>CSS</h3>
+                <h3>Javascript</h3>
+                <h3>Bootstrap</h3>
+                <h3>Reactjs</h3>
+            </div>
+            <div class="skills3">
+                <h2>Other Skills</h2>
+                <h3>Wix</h3>
+                <h3>Visual Studio</h3>
+                <h3>Pycharm</h3>
+                <h3>Monday Developement</h3>
+            </div>
+            </div>
+        </section>
+        <div class="footer">
+            <p>Connect With me on github <a href="https://github.com/Sulagna-Dutta-Roy"><i class="fab fa-github"></i></a></p>
+        </div>
+
+        <!------------------------------------>
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+        
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="Images/Stopwatch.PNG" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="Images/Drawing1.PNG" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="Images/Capture2.PNG" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="Images/Capture3.PNG" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="Images/Output.PNG" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="Images/Screenshot 1.PNG" alt="">
+                </div>
+            </div>
+        <!------------------------------------>
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+        
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Send Message" class="contact__button button">
+                </form>
+            </div>
+        </section>
+        <!-------- FOOTER------------->
+         <footer class="footer">
+            <p class="footer__title"></p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+        <!------ SCROLL REVEAL------------>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--------MAIN JS--------->
+        <script src="script.js"></script>
+    </body>
+</html>
+    
