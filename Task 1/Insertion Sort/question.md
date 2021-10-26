@@ -1,0 +1,1 @@
+Write a C program to implement insertion sort for array [23,151,2,56,98,84,36,1].
