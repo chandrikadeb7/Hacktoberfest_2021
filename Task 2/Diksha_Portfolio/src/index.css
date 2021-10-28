@@ -1,0 +1,265 @@
+body {
+  background: black;
+}
+.mying{
+  height: 200px;
+  background: #aaa;
+}
+#heading{
+  background: black;
+  color: white;
+}
+.heading{
+  background: black;
+  color: white;
+}
+#footer{
+  background: black;
+  color: white;
+}
+li.nav-item{
+  margin: 5px;
+  padding: 80px;
+}
+h2.myskills{
+  margin-top: 60px;
+}
+ @media only screen and (max-width:1000px){
+  .myname{
+    font-size:3vw;
+  }
+  .myoccupation{
+    font-size:2.5vw;
+  }
+  #navigation{
+    font-size:2vw;
+  }
+  .myskills{
+    font-size:2.5vw;
+  }
+  .skills{
+    font-size:2.25vw;
+  }
+  th{
+    font-size:2vw;
+  }
+  td{
+    font-size:1.5vw;
+  }
+  #footer{
+    font-size:2vw;
+  }
+}
+@media only screen and (max-width:840px){
+  .myname{
+    font-size:3.5vw;
+  }
+  .myoccupation{
+    font-size:3vw;
+  }
+  #navigation{
+    font-size:2.5vw;
+  }
+  .myskills{
+    font-size:2.5vw;
+  }
+  .skills{
+    font-size:2.5vw;
+  }
+  th{
+    font-size:2vw;
+  }
+  td{
+    font-size:1.5vw;
+  }
+  #footer{
+    font-size:2.5vw;
+  }
+}
+@media only screen and (max-width:840px){
+  .myname{
+    font-size:3.5vw;
+  }
+  .myoccupation{
+    font-size:3vw;
+  }
+  #navigation{
+    font-size:2.5vw;
+  }
+  .myskills{
+    font-size:2.5vw;
+  }
+  .skills{
+    font-size:2.5vw;
+  }
+  th{
+    font-size:2vw;
+  }
+  td{
+    font-size:1.5vw;
+  }
+  #footer{
+    font-size:2.5vw;
+  }
+}
+@media only screen and (max-width:640px){
+  .myname{
+    font-size:3.75vw;
+  }
+  .myoccupation{
+    font-size:3.25vw;
+  }
+  #navigation{
+    font-size:2.75vw;
+  }
+  .myskills{
+    font-size:3vw;
+  }
+  .skills{
+    font-size:2.75vw;
+  }
+  th{
+    font-size:2.75vw;
+  }
+  td{
+    font-size:1.50vw;
+  }
+  #footer{
+    font-size:2.75vw;
+  }
+}
+@media only screen and (max-width:320px){
+  .myname{
+    font-size:4.5vw;
+  }
+  .myoccupation{
+    font-size:4vw;
+  }
+  #navigation{
+    font-size:3.5vw;
+  }
+  .myskills{
+    font-size:4.5vw;
+  }
+  .skills{
+    font-size:4vw;
+  }
+  th{
+    font-size:3vw;
+  }
+  td{
+    font-size:1.50vw;
+  }
+  #footer{
+    font-size:2.5vw;
+  }
+}
+@media only screen and (max-width:300px){
+  .myname{
+    font-size:4vw;
+  }
+  .myoccupation{
+    font-size:3.25vw;
+  }
+  #navigation{
+    font-size:3.25vw;
+  }
+  .myskills{
+    font-size:4vw;
+  }
+  .skills{
+    font-size:3.5vw;
+  }
+  th{
+    font-size:2.5vw;
+  }
+  td{
+    font-size:2vw;
+  }
+  #footer{
+    font-size:2vw;
+  }
+}
+@media only screen and (max-width:280px){
+  .myname{
+    font-size:4vw;
+  }
+  .myoccupation{
+    font-size:3.5vw;
+  }
+  #navigation{
+    font-size:2.5vw;
+  }
+  .myskills{
+    font-size:4vw;
+  }
+  .skills{
+    font-size:3.5vw;
+  }
+  th{
+    font-size:2.5vw;
+  }
+  td{
+    font-size:2vw;
+  }
+  #footer{
+    font-size:1.5vw;
+  }
+}
+@media only screen and (max-width:240px){
+  .myname{
+    font-size:3.5vw;
+  }
+  .myoccupation{
+    font-size:3vw;
+  }
+  #navigation{
+    font-size:2vw;
+  }
+  .myskills{
+    font-size:3.5vw;
+  }
+  .skills{
+    font-size:3vw;
+  }
+  th{
+    font-size:2vw;
+  }
+  td{
+    font-size:1.5vw;
+  }
+  #footer{
+    font-size:0.25vw;
+  }
+}
+@media only screen and (max-width:220px){
+  .myname{
+    font-size:3.25vw;
+  }
+  .myoccupation{
+    font-size:2.75vw;
+  }
+  #navigation{
+    font-size:1.5vw;
+  }
+  .myskills{
+    font-size:3.25vw;
+  }
+  .skills{
+    font-size:2.75vw;
+  }
+  th{
+    font-size:1.75vw;
+  }
+  td{
+    font-size:1.25vw;
+  }
+  #footer{
+    font-size:0.2vw;
+  }
+} 
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
