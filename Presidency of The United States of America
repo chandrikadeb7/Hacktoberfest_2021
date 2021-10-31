@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 2px solid Crimson;
+
+}
+
+</style>
+</head>
+<body style="background-color:MidnightBlue;"> 
+
+<p style="color:White; text-align: center"<span style='font-size:100px;'>&#128509;</span>Presidency of The United States of America</p<span style='font-size:100px;'>&#128509;</span>
+
+</body>
+</html>
+
+<table style="width:100%">
+  <tr>
+    <th style="color:GoldenRod;">Countries:</th>
+    <th style="color:GoldenRod;">Images:</th>
+    <th style="color:GoldenRod;">Description:</th>
+  </tr>
+  <tr>
+    <td style="color:White;">1) George Washington</td>
+<td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/240px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg" width="200" height="150"> </td>
+    
+    <td style="color:White;">George Washington served as the first president of The United States of America from 1789 to 1797. He established the constitution of the United States and a federal government.</td>
+  </tr>
+  <tr>
+    <td style="color:White;">2) John Adams</td>
+    <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg/240px-John_Adams%2C_Gilbert_Stuart%2C_c1800_1815.jpg" width="200" height="150"> </td>
+    
+    <td style="color:White;">John Adams served as the second president from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Britain, and served as the vice president.</td>
+  </tr>
+  <tr>
+    <td style="color:White;">3) Thomas Jefferson</td>
+    <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg/240px-Thomas_Jefferson_by_Rembrandt_Peale%2C_1800.jpg" width="200" height="150"> </td>
+    
+    
+    <td style="color:White;">Thomas Jefferson served as the third president from 1801 to 1809. Also, he previously served as the second vice president, and as the first United States secretary.  </td>
+  </tr>
+  <tr>
+  	<td style="color:White;">4) James Madison</td>
+    <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/James_Madison.jpg/240px-James_Madison.jpg" width="200" height="150" </td>
+    
+    
+    <td style="color:White;">James Madison served as the fourth president from 1809 to 1817. He is hailed as the "Father of the Constitution" for his pivotal role in drafting and promoting the Constitution of United States.</td>
+  </tr>
+  <tr>
+  	<td style="color:White;">5) James Monroe</td>
+    <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/James_Monroe_White_House_portrait_1819.jpg/240px-James_Monroe_White_House_portrait_1819.jpg" width="200" height="150" </td>
+    
+    
+    <td style="color:White;">James Monroe served as the fifth president from 1817 to 1825. A member of the Democratic-Republican Party, his presidency concluded the First Party System era of the American politics. </td>
+  </tr>
+  <tr>
+  	<td style="color:White;">6) John Quincy Adams</td>
+    <td> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/JQA_Photo.tif/lossy-page1-240px-JQA_Photo.tif.jpg" width="200" height="150" </td>
+    
+    
+    <td style="color:White;">John Quincy Adams served as the sixth president from 1825 to 1829. He previously served as the eighth United States secretary of State.</td>
+</table>
+
+</body>
+</html>
