@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main() {
+   //THIS IS A THANKNOTE FOR DOING A GREAT JOB IN ENCOURAGING US
+   printf("Hello,Everyone!");
+    PRINTF("Thank for giving an opportunity like this!!")
+
+#begining of the grade calculator
+
+ int marks;
+    printf("Enter the marks you obtained "); 
+    scanf("%d",&marks);          #inputting the marks
+    if(marks<0 || marks>100)
+    {
+        printf("Wrong Entry");
+    }
+     else if(marks<50)
+     {
+         printf("Grade F");
+     }
+           else if(marks>=50 && marks<60)
+    {
+        printf("Grade D");
+    }
+          else if(marks>=60 && marks<70)
+    {
+        printf("Grade C");
+    }
+          else if(marks>=70 && marks<80)
+    {
+        printf("Grade B");
+    }
+           else 
+    {
+        printf("Grade A");
+    }
+   
+ 
+}
