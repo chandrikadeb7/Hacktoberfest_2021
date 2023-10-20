@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num, original_num, rem, result = 0;
+    cout << "Enter a three-digit integer: ";
+    cin >> num;
+    original_num = num;
+
+    while (original_num != 0) {
+
+        rem = original_num % 10;
+        result += rem*rem*rem;
+
+        // removing last digit from the orignal number
+        original_num /= 10;
+    }
+
+    if (result == num)
+        cout << num << " "<<"is an Armstrong number";
+    else
+        cout << "Not an armstrong number";
+
+    return 0;
+}
