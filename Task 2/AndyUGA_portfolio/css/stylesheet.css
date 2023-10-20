@@ -1,0 +1,660 @@
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative;
+
+}
+
+.nameFont {
+    font-size:3rem;
+    font-weight: 300;
+}
+
+.reduceHeight {
+    height: 50vh;
+}
+
+.freelanceTitle {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2vh;
+    padding-bottom: 1vh;
+}
+
+.grow { 
+    transition: all .3s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.05); 
+}
+
+
+.enlarge {
+    transition: all .2s ease-in-out;
+}
+
+.enlarge:hover {
+    transform: scale(1.1); 
+}
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: red;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+.card-title {
+    font-weight: bold;
+    font-size: 3vh;
+    text-decoration: underline;
+}
+
+.portfolioImg:hover {
+    background-color: blue;
+    background: red;
+}
+
+.card {
+    width: 50%;
+}
+
+.reddit {
+    color: #FF5700;
+}
+
+.upcr {
+    color: #199045;
+}
+
+.uvsase {
+    color: #009FB7;
+
+}
+
+.node {
+    color: #75AD64;
+}
+
+.reactNative {
+    color: #00D8FF;
+}
+
+.newspaper {
+    color:black;
+}
+
+.angular {
+    color: #DD1915;
+}
+
+.ionic {
+    color: #4F8FF7;
+
+}
+
+
+
+.nodeJS {
+    color: #83CD2A;
+}
+
+.mongoDB {
+    color: #56AE46;
+}
+
+.bootstrap {
+    color: #5B4282;
+}
+
+.html5 {
+    color: #E44D25;
+}
+
+.css3 {
+    color: #34A9DC;
+}
+
+.git {
+    color: #E44D25;
+}
+
+.github {
+    color: #171515;
+}
+
+.bitbucket {
+    color: #205081;
+}
+
+.wordpress {
+    color: #494949;
+
+}
+
+
+
+
+.logo {
+    width: 15vh;
+ 
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fas, .far {
+    font-size: 12vh;
+}
+
+.languageIcon {
+    height: 70%;
+    width: 100%;
+
+}
+
+.githubIcon {
+    width: 10%
+}
+
+
+
+.programmingIcon {
+    height: 50%;
+    width: 20%;
+}
+
+.projectIcon2 {
+    height: 50%;
+    width: 40%;
+}
+
+
+
+
+
+
+.techIconFont {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo2 {
+    width: 40%;
+    height: 10vh;
+    vertical-align: middle;
+
+}
+
+.line {
+    color: white;
+}
+
+.appName {
+    font-size: 20px;
+}
+
+
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.icon2 {
+    height: 90px;
+    width: 90px;
+}
+
+.icon3 {
+    width: 40px;
+    height: auto;
+}
+
+.icon3 {
+    height: 60px;
+    width: 60px;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.homeImage {
+    width: 70%;
+    border-radius: 20%;
+}
+
+.homeImage2 {
+    width: 25%;
+}
+
+.homeImage3 {
+    width: 80%;
+    border-radius: 15%;
+}
+
+.indexTitle {
+    font-size: 4rem;
+}
+
+.tempText {
+    color: white;
+}
+
+.contact {
+    text-align: center;
+    color: white;
+}
+
+.footerIMG {
+    height: 40px;
+    width: 40px;
+}
+
+.footerIMG2 {
+    height: 60px;
+    width: 50px;
+}
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.link2 {
+    padding-top: 15px;
+}
+
+
+
+.text {
+    text-align: center;
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Roboto", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.temp {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.jumbotron {
+    background: none !important;
+
+}
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{  padding-top: 20px;
+    padding-bottom: 20px;}
+
+
+
+.name {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+
+
+
+
+@keyframes animate {
+    0% {
+        transform:scaleX(0);
+        transform-origin: left;
+    }
+    50%
+    {
+        transform:scaleX(1);
+        transform-origin: left;
+    }
+    50.1%
+    {
+        transform:scaleX(1);
+        transform-origin: right;
+
+    }
+
+    100%
+    {
+        transform:scaleX(0);
+        transform-origin: right;
+
+    }
+
+
+} 
+
+
+
+.menuButton {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-size: 18px;
+    border: 0px;
+}
+
+.menuButton:hover {
+    border-color: red;
+}
+
+
+
+.backgroundImg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        /* top, transparent red */
+        linear-gradient(
+            rgba(4, 9, 30, 0.7), 
+            rgba(4, 9, 30, 0.7)
+        ),
+        /* your image */
+        url(../img/background/gaming.jpg);
+}
+
+
+
+
+
+.projectHeading {
+    text-align: center;
+}
+
+
+
+.projectIcon {
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+
+/* Most mobile devices */
+@media screen and (min-width: 300px) and (max-width: 749px) {
+
+    .hideMobile {
+        display: none;
+    }
+    .grow { 
+        transition: all .3s ease-in-out; 
+    }
+
+    .grow:hover { 
+        transform: scale(1.0); 
+    }
+    .techIconFont {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .card2 {
+        width: 85%;
+    }
+
+    .fas, .far {
+        font-size: 10vh;
+    }
+
+    .logo {
+   
+        height: 10vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .githubIcon {
+        width: 20%;
+    }
+    
+    .languageIcon {
+        height: 70%;
+        width: 100%;
+
+    }
+
+
+
+
+    .programmingIcon {
+        height: 100%;
+        width: 35%;
+    }
+    /* Underline From Center */
+
+    .hvr-underline-from-center:before {
+        background: #343A3F;
+
+    }
+}
+
+/* Table devices */
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+
+
+    .icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .fas, .far {
+        font-size: 8vh;
+    }
+
+    .icon2 {
+        height: 70px;
+        width: 70px;
+    }
+
+    .icon3 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .logo {
+      
+        height: 10vh;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .languageIcon {
+        height: 70%;
+        width: 100%;
+
+    }
+
+    .techIconFont {
+        font-size: 16px;
+    }
+
+    .programmingIcon {
+        height: 50%;
+        width: 35%;
+    }
+
+
+
+
+    .testbg3 {
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat-y;
+        width: 100%;
+        height: 270vh;
+        background-image: 
+            /* top, transparent red */
+            linear-gradient(
+                rgba(4, 9, 30, .5), 
+                rgba(4, 9, 30, 0.5)
+            ),
+            /* your image */
+            url(img/background/tech3.jpg);
+    }
+
+
+
+
+    /* The typewriter cursor effect */
+
+    .box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 370px;
+        height: 370px;
+        font-size: 19px;
+        box-sizing: border-box;
+        overflow: hidden;
+        box-shadow: 0 20px 50px rgb(250, 100, 100);
+        border: 2px solid black;
+        color: white;
+        padding: 20px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width: 1400px) {
+    .card2 {
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hvr-underline-from-center {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        overflow: hidden;
+    }
+    .hvr-underline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 51%;
+        right: 51%;
+        bottom: 0;
+        background: black;
+        height: 4px;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+    .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+        left: 0;
+        right: 0;
+    }
+}
+
+
+@media screen and (max-width:362px) {
+    .marginBottomButton {
+        margin-bottom: 1rem;
+    }
+}
