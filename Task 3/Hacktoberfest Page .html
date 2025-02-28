@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest Contributions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+        }
+    </style>
+</head>
+<body class="text-white">
+    <div class="container mx-auto p-6">
+        <h1 class="text-5xl font-extrabold text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Hacktoberfest 2024</h1>
+        
+        <section class="mt-10 text-center p-6 bg-gray-800 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-semibold">What is Hacktoberfest?</h2>
+            <p class="mt-4 text-gray-300">Hacktoberfest is an annual event that encourages developers to contribute to open-source projects on GitHub and GitLab. By making meaningful contributions, participants help maintainers improve their projects while also getting the chance to win exclusive Hacktoberfest swag.</p>
+            <p class="mt-4 text-gray-300">Anyone with a GitHub account can take part, regardless of skill level. It's a great way to get started with open-source contributions, learn from the community, and showcase your coding skills.</p>
+        </section>
+        
+        <section class="mt-10 text-center p-6 bg-gray-800 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-semibold">How to Contribute</h2>
+            <p class="mt-4 text-gray-300">Follow these simple steps to participate:</p>
+            <ul class="mt-4 list-disc list-inside text-gray-300 text-left mx-auto w-3/4 space-y-2">
+                <li><strong>Find an issue:</strong> Browse through open issues in repositories and find one that interests you.</li>
+                <li><strong>Claim the issue:</strong> Comment on the issue to let the maintainers know you're working on it.</li>
+                <li><strong>Fork the repository:</strong> Create your copy of the project by forking the repository.</li>
+                <li><strong>Create a new branch:</strong> Work on your changes in a separate branch to keep your edits organized.</li>
+                <li><strong>Make your changes:</strong> Fix bugs, add features, or improve documentation as required.</li>
+                <li><strong>Commit and push:</strong> Commit your changes with a descriptive message and push them to your fork.</li>
+                <li><strong>Submit a pull request:</strong> Open a pull request (PR) to propose your changes for review.</li>
+                <li><strong>Wait for approval:</strong> Maintain the conversation with maintainers if changes are requested.</li>
+            </ul>
+            <p class="mt-4 text-gray-300">Once your PR is merged, it counts toward your Hacktoberfest contributions!</p>
+        </section>
+        
+        <section class="mt-10 text-center p-6 bg-gray-800 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-semibold">Contribution Graph</h2>
+            <p class="mt-4 text-gray-300">See your contribution progress for the year:</p>
+            <div id="graph-container" class="mt-6 flex justify-center">
+                <img id="contribution-graph" class="border p-2 rounded-lg shadow-md bg-gray-900" alt="GitHub Contribution Graph">
+            </div>
+            <p class="mt-4 text-gray-300">This graph displays your commit activity over the past year. Keep contributing to stay active in the open-source community!</p>
+        </section>
+    </div>
+    
+    <script>
+        const username = "your-github-username"; // Replace with the relevant username
+        document.getElementById("contribution-graph").src = `https://ghchart.rshah.org/3498db/${username}`;
+    </script>
+</body>
+</html>
